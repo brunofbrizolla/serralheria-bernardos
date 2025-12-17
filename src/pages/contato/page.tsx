@@ -204,12 +204,12 @@ export default function ContatoPage() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-bernardos-red focus:border-transparent text-sm pr-8"
                   >
                     <option value="">Selecione um serviço</option>
-                    <option value="pladur">Pladur</option>
-                    <option value="teto-falso">Teto Falso</option>
-                    <option value="teto-amovivel">Teto Amovível</option>
-                    <option value="chao-flutuante">Chão Flutuante</option>
-                    <option value="remodelacao">Remodelação Geral</option>
-                    <option value="drywall">Drywall</option>
+                    <option value="serralharia">Serralharia</option>
+                    <option value="remodelacoes">Remodelações Gerais</option>
+                    <option value="pintura">Pintura</option>
+                    <option value="pladur">Pladur (Gesso Cartonado)</option>
+                    <option value="eletricos">Serviços Elétricos</option>
+                    <option value="manutencao">Manutenção e Reparações</option>
                     <option value="outro">Outro</option>
                   </select>
                 </div>
