@@ -324,7 +324,7 @@ const ChatWidget = () => {
         }`}
       >
         {/* Chat Header with Avatar and Close Button */}
-        <div className="bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white p-4 rounded-t-lg flex items-center gap-3 relative">
+        <div className="bg-gradient-to-r from-bernardos-red to-bernardos-red-dark text-white p-4 rounded-t-lg flex items-center gap-3 relative">
           <button
             onClick={toggleChat}
             className="absolute top-2 right-2 w-6 h-6 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-colors opacity-60 hover:opacity-100"
@@ -353,7 +353,7 @@ const ChatWidget = () => {
               <div
                 className={`max-w-[80%] rounded-lg p-3 ${
                   message.type === 'user'
-                    ? 'bg-[#B8860B] text-white rounded-br-none'
+                    ? 'bg-bernardos-red text-white rounded-br-none'
                     : 'bg-white text-gray-800 rounded-bl-none shadow-sm'
                 }`}
               >
@@ -395,13 +395,13 @@ const ChatWidget = () => {
                 onChange={(e) => setInputValue(e.target.value)}
                 onKeyDown={handleKeyPress}
                 placeholder="Digite sua mensagem..."
-                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#B8860B] focus:border-transparent"
+                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bernardos-red focus:border-transparent"
                 disabled={isSending}
               />
               <button
                 onClick={handleSendMessage}
                 disabled={!inputValue.trim() || isSending}
-                className="px-4 py-2 bg-[#B8860B] text-white rounded-lg hover:bg-[#8B6914] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                className="px-4 py-2 bg-bernardos-red text-white rounded-lg hover:bg-bernardos-red-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
               >
                 <i className="ri-send-plane-fill text-lg"></i>
               </button>
@@ -410,7 +410,7 @@ const ChatWidget = () => {
             <div className="text-center py-2">
               <button
                 onClick={resetChat}
-                className="text-[#B8860B] hover:text-[#8B6914] text-sm font-medium"
+                className="text-bernardos-red hover:text-bernardos-red-dark text-sm font-medium"
               >
                 Iniciar nova conversa
               </button>
