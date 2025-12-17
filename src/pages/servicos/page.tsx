@@ -225,7 +225,7 @@ export default function ServicosPage() {
             </a>
             <a 
               href="tel:+351968747769"
-              className="px-8 py-4 bg-bernardos-red text-white rounded-lg font-semibold hover:bg-[#8B6914] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
+              className="px-8 py-4 bg-bernardos-red text-white rounded-lg font-semibold hover:bg-bernardos-red-dark transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
             >
               <i className="ri-phone-line text-xl"></i>
               Ligar: 968 747 769

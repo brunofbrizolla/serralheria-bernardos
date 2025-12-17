@@ -125,7 +125,7 @@ export default function SobrePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {values.map((value, index) => (
               <div key={index} className="bg-white rounded-2xl p-8 text-center shadow-lg">
-                <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#B8860B] to-[#D4AF37] rounded-full mx-auto mb-6">
+                <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mx-auto mb-6">
                   <i className={`${value.icon} text-3xl text-white`}></i>
                 </div>
                 <h3 className="text-2xl font-bold text-[#0F172A] mb-4">{value.title}</h3>
@@ -148,15 +148,15 @@ export default function SobrePage() {
 
           <div className="max-w-4xl mx-auto">
             <div className="relative">
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-[#B8860B]/20"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-bernardos-red/20"></div>
               
               {timeline.map((item, index) => (
                 <div key={index} className={`relative flex items-center mb-12 ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-[#B8860B] rounded-full border-4 border-white shadow-lg"></div>
+                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-bernardos-red rounded-full border-4 border-white shadow-lg"></div>
                   
                   <div className={`w-5/12 ${index % 2 === 0 ? 'text-right pr-8' : 'text-left pl-8'}`}>
                     <div className="bg-white rounded-lg p-6 shadow-lg border border-gray-100">
-                      <div className="text-2xl font-bold text-[#B8860B] mb-2">{item.year}</div>
+                      <div className="text-2xl font-bold text-bernardos-red mb-2">{item.year}</div>
                       <h3 className="text-xl font-semibold text-[#0F172A] mb-3">{item.title}</h3>
                       <p className="text-gray-600">{item.description}</p>
                     </div>
@@ -188,7 +188,7 @@ export default function SobrePage() {
                 />
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-bold text-[#0F172A] mb-2">{member.name}</h3>
-                  <p className="text-[#B8860B] font-semibold mb-3">{member.position}</p>
+                  <p className="text-bernardos-red font-semibold mb-3">{member.position}</p>
                   <p className="text-gray-600 text-sm leading-relaxed">{member.description}</p>
                 </div>
               </div>
@@ -198,11 +198,11 @@ export default function SobrePage() {
       </section>
 
       {/* Legal Section */}
-      <section className="py-16 bg-[#B8860B] text-white">
+      <section className="py-16 bg-bernardos-red text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="bg-white/10 border border-white/20 rounded-2xl p-8">
-              <i className="ri-shield-check-line text-5xl text-[#D4AF37] mb-4"></i>
+              <i className="ri-shield-check-line text-5xl text-bernardos-red mb-4"></i>
               <h3 className="text-2xl font-bold mb-4">Experiência e Qualidade</h3>
               <p className="text-lg leading-relaxed opacity-90">
                 A Serralheria Bernardo's oferece serviços profissionais de serralharia e remodelações em <strong>Lisboa e região</strong>, 
@@ -225,14 +225,14 @@ export default function SobrePage() {
               href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20conhecer%20melhor%20os%20vossos%20serviços" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-[#D4AF37] text-white rounded-lg font-semibold hover:bg-[#B8860B] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
+              className="px-8 py-4 bg-bernardos-red text-white rounded-lg font-semibold hover:bg-bernardos-red-dark transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
             >
               <i className="ri-whatsapp-line text-xl"></i>
               Contactar WhatsApp
             </a>
             <a 
               href="tel:+351968747769"
-              className="px-8 py-4 bg-[#B8860B] text-white rounded-lg font-semibold hover:bg-[#8B6914] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
+              className="px-8 py-4 bg-bernardos-red text-white rounded-lg font-semibold hover:bg-bernardos-red-dark transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
             >
               <i className="ri-phone-line text-xl"></i>
               Ligar: 968 747 769
