@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import emailjs from '@emailjs/browser';
 
 export default function ContatoPage() {
   const [formData, setFormData] = useState({
@@ -34,25 +33,29 @@ export default function ContatoPage() {
     }
 
     try {
-      // Configuração do EmailJS
-      const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-      const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-      const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+      // Web3Forms - solução simples e gratuita
+      // Obtenha sua chave em: https://web3forms.com/
+      const accessKey = import.meta.env.VITE_WEB3FORMS_KEY || 'YOUR_ACCESS_KEY';
+      
+      const formDataToSend = new FormData();
+      formDataToSend.append('access_key', accessKey);
+      formDataToSend.append('subject', 'Novo Pedido de Orçamento - Serralheria Bernardo\'s');
+      formDataToSend.append('from_name', formData.nome);
+      formDataToSend.append('email', formData.email);
+      formDataToSend.append('phone', formData.telefone);
+      formDataToSend.append('location', formData.localizacao || 'Não especificado');
+      formDataToSend.append('service_type', formData.tipoServico || 'Não especificado');
+      formDataToSend.append('message', formData.mensagem);
+      formDataToSend.append('to', 'geral@serralheriabernardos.pt');
 
-      // Verificar se as variáveis estão configuradas
-      if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
-        console.error('EmailJS não configurado. Verifique as variáveis de ambiente.');
-        // Fallback: usar mailto como alternativa temporária
-        const mailtoSubject = encodeURIComponent('Pedido de Orçamento - Serralheria Bernardo\'s');
-        const mailtoBody = encodeURIComponent(
-          `Nome: ${formData.nome}\n` +
-          `Email: ${formData.email}\n` +
-          `Telefone: ${formData.telefone}\n` +
-          `Localização: ${formData.localizacao || 'Não especificado'}\n` +
-          `Tipo de Serviço: ${formData.tipoServico || 'Não especificado'}\n\n` +
-          `Mensagem:\n${formData.mensagem}`
-        );
-        window.location.href = `mailto:geral@serralheriabernardos.pt?subject=${mailtoSubject}&body=${mailtoBody}`;
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formDataToSend
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
         setSubmitStatus('success');
         setFormData({
           nome: '',
@@ -62,42 +65,11 @@ export default function ContatoPage() {
           tipoServico: '',
           mensagem: ''
         });
-        setIsSubmitting(false);
-        return;
+      } else {
+        setSubmitStatus('error');
       }
-
-      // Inicializar EmailJS
-      emailjs.init(EMAILJS_PUBLIC_KEY);
-
-      // Preparar dados do template
-      const templateParams = {
-        from_name: formData.nome,
-        from_email: formData.email,
-        phone: formData.telefone,
-        location: formData.localizacao || 'Não especificado',
-        service_type: formData.tipoServico || 'Não especificado',
-        message: formData.mensagem,
-        to_email: 'geral@serralheriabernardos.pt',
-      };
-
-      // Enviar email
-      await emailjs.send(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        templateParams
-      );
-
-      setSubmitStatus('success');
-      setFormData({
-        nome: '',
-        email: '',
-        telefone: '',
-        localizacao: '',
-        tipoServico: '',
-        mensagem: ''
-      });
     } catch (error) {
-      console.error('Erro ao enviar email:', error);
+      console.error('Erro ao enviar formulário:', error);
       setSubmitStatus('error');
     }
 
