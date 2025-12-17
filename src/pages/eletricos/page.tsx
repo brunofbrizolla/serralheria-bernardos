@@ -61,7 +61,7 @@ export default function EletricosPage() {
                     href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20Serviços%20Elétricos" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-[#B8860B] rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2 text-base sm:text-lg shadow-xl"
+                    className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-bernardos-red rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2 text-base sm:text-lg shadow-xl"
                   >
                     <i className="ri-whatsapp-line text-xl sm:text-2xl"></i>
                     <span className="hidden sm:inline">Solicitar Orçamento Grátis</span>
@@ -105,7 +105,7 @@ export default function EletricosPage() {
                   { icon: 'ri-home-smart-home-line', title: 'Automação Residencial', desc: 'Soluções de automação para casa' }
                 ].map((item, i) => (
                   <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
-                    <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#B8860B] to-[#D4AF37] rounded-full mb-4">
+                    <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mb-4">
                       <i className={`${item.icon} text-3xl text-white`}></i>
                     </div>
                     <h4 className="text-xl font-bold text-[#0F172A] mb-3">{item.title}</h4>
@@ -117,7 +117,7 @@ export default function EletricosPage() {
           </div>
         </section>
 
-        <section className="py-20 bg-gradient-to-r from-[#B8860B] to-[#D4AF37]">
+        <section className="py-20 bg-gradient-to-r from-bernardos-red to-bernardos-red-dark">
           <div className="container mx-auto px-4 text-center">
             <h3 className="text-4xl font-bold text-white mb-4">Solicite o Seu Orçamento Grátis</h3>
             <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
@@ -128,7 +128,7 @@ export default function EletricosPage() {
                 href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20um%20orçamento%20gratuito%20para%20Serviços%20Elétricos" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="px-10 py-5 bg-white text-[#B8860B] rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-3 text-lg shadow-xl"
+                className="px-10 py-5 bg-white text-bernardos-red rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-3 text-lg shadow-xl"
               >
                 <i className="ri-whatsapp-line text-2xl"></i>
                 WhatsApp - Orçamento Grátis

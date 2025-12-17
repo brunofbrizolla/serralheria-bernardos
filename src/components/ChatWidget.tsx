@@ -256,7 +256,7 @@ const ChatWidget = () => {
         {!isOpen && (
           <button
             onClick={toggleChat}
-            className="relative w-16 h-16 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 transform overflow-hidden scale-100 hover:scale-110 bg-[#B8860B] shadow-[#B8860B]/50"
+            className="relative w-16 h-16 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 transform overflow-hidden scale-100 hover:scale-110 bg-bernardos-red shadow-bernardos-red/50"
             aria-label="Abrir chat"
           >
             <img
@@ -297,7 +297,7 @@ const ChatWidget = () => {
               <img
                 src={avatarUrl}
                 alt="Atendente"
-                className="w-10 h-10 rounded-full border-2 border-[#B8860B] object-cover flex-shrink-0"
+                className="w-10 h-10 rounded-full border-2 border-bernardos-red object-cover flex-shrink-0"
               />
               <div className="flex-1">
                 <p className="text-sm font-semibold text-gray-800 mb-1">Atendente</p>
