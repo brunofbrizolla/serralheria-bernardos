@@ -8,7 +8,7 @@ export default function SobrePage() {
     {
       icon: 'ri-shield-check-line',
       title: 'Confiança',
-      description: 'Mais de 20 anos de experiência e centenas de clientes satisfeitos em Santiago do Cacém e região.'
+      description: 'Serviços profissionais com qualidade, rigor e cumprimento de prazos em Lisboa e região.'
     },
     {
       icon: 'ri-star-line',
@@ -19,29 +19,19 @@ export default function SobrePage() {
 
   const timeline = [
     {
-      year: '2004',
-      title: 'Fundação da Greenelite',
-      description: 'Início das atividades especializadas em construção civil, Pladur e pintura em Santiago do Cacém.'
+      year: 'Fundação',
+      title: 'Serralheria Bernardo\'s',
+      description: 'Início das atividades especializadas em serralharia e remodelações em Lisboa.'
     },
     {
-      year: '2010',
-      title: 'Expansão de Serviços',
-      description: 'Ampliação dos serviços para barramento, tetos falsos e remodelação geral.'
+      year: 'Expansão',
+      title: 'Ampliação de Serviços',
+      description: 'Expansão dos serviços para incluir pintura, pladur, serviços elétricos e manutenção.'
     },
     {
-      year: '2015',
-      title: 'Especialização',
-      description: 'Foco em pintura industrial e serviços especializados.'
-    },
-    {
-      year: '2020',
-      title: 'Consolidação',
-      description: 'Consolidação como referência em construção civil na região.'
-    },
-    {
-      year: '2025',
-      title: '20 Anos de Experiência',
-      description: 'Celebração de mais de 20 anos de experiência e qualidade em construção civil.'
+      year: 'Atual',
+      title: 'Lisboa e Região',
+      description: 'Atendimento em toda a região de Lisboa com qualidade, rigor e cumprimento de prazos.'
     }
   ];
 
@@ -49,7 +39,7 @@ export default function SobrePage() {
     {
       name: 'Equipa Especializada',
       position: 'Profissionais Qualificados',
-      description: 'Equipa experiente com mais de 20 anos de experiência em construção civil, especializada em Pladur, barramento e pinturas.',
+      description: 'Equipa experiente especializada em serralharia, remodelações, pintura, pladur e serviços elétricos.',
       image: 'https://readdy.ai/api/search-image?query=professional%20construction%20workers%20team%20working%20on%20pladur%20drywall%20installation%20portuguese%20company%20santiago%20do%20cacem%20region%20teamwork%20quality%20service&width=300&height=400&seq=team1&orientation=portrait'
     },
     {
@@ -60,7 +50,7 @@ export default function SobrePage() {
     },
     {
       name: 'Pintores Especializados',
-      position: 'Pintura Industrial e Geral',
+      position: 'Pintura',
       description: 'Especialistas em pintura industrial, anti-corrosão e pinturas residenciais e comerciais.',
       image: 'https://readdy.ai/api/search-image?query=professional%20painter%20industrial%20painting%20portuguese%20technician%20work%20clothes%20construction%20site%20quality%20service&width=300&height=400&seq=team3&orientation=portrait'
     }
@@ -76,10 +66,9 @@ export default function SobrePage() {
         }}
       >
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold text-white mb-6">Sobre a Greenelite</h1>
+          <h1 className="text-5xl font-bold text-white mb-6">Sobre a Serralheria Bernardo's</h1>
           <p className="text-xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-            A Greenelite unipessoal Lda é uma empresa de prestação de serviços focada na construção civil, especializada em Pladur, barramento e pinturas. 
-            Com mais de 20 anos de experiência, oferecemos soluções profissionais em Santiago do Cacém e região.
+            A Serralheria Bernardo's presta serviços profissionais de serralharia e remodelações, atendendo toda a região de Lisboa com qualidade, rigor e cumprimento de prazos.
           </p>
         </div>
       </section>
@@ -102,24 +91,20 @@ export default function SobrePage() {
                 <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm p-3 rounded-full shadow-xl border-2 border-[#B8860B]">
                   <img 
                     src="https://i.ibb.co/9HRRKhQf/Imagem-do-Whats-App-de-2025-11-13-s-10-48-58-4162b361.webp" 
-                    alt="Greenelite Logo" 
+                    alt="Serralheria Bernardo's Logo" 
                     className="h-16 w-16 object-cover rounded-full"
                   />
                 </div>
               </div>
               <div>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  A <strong>Greenelite unipessoal Lda</strong> é uma empresa de prestação de serviços focada na construção civil, 
-                  especializada em Pladur, barramento e pinturas. Trabalhamos com Pladur, barramentos gerais, tetos falsos, 
-                  tetos amovíveis, pintura, remodelação geral com mais de 20 anos de experiência em construção civil.
+                  A <strong>Serralheria Bernardo's</strong> presta serviços profissionais de serralharia e remodelações, atendendo toda a região de Lisboa com qualidade, rigor e cumprimento de prazos.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  Oferecemos serviços de pintura industrial e geral, remodelação e trabalhamos com chão flutuante. 
-                  Soluções completas para transformar o seu espaço com qualidade e profissionalismo.
+                  Oferecemos serviços de serralharia, remodelações gerais, pintura, pladur, serviços elétricos e manutenção. Trabalhos personalizados, robustos e duradouros, para habitações e espaços comerciais.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Localizados em Vale Verde, 7540-230 Santiago do Cacém, servimos clientes em toda a região com soluções profissionais 
-                  e de qualidade superior.
+                  Atuamos em toda a região de Lisboa, servindo clientes com soluções profissionais e de qualidade superior, sempre com foco na satisfação do cliente e no cumprimento de prazos.
                 </p>
               </div>
             </div>
@@ -220,8 +205,8 @@ export default function SobrePage() {
               <i className="ri-shield-check-line text-5xl text-[#D4AF37] mb-4"></i>
               <h3 className="text-2xl font-bold mb-4">Experiência e Qualidade</h3>
               <p className="text-lg leading-relaxed opacity-90">
-                A Greenelite unipessoal Lda possui <strong>mais de 20 anos de experiência</strong> em construção civil, 
-                garantindo qualidade e profissionalismo em todos os projetos de Pladur, barramento e pintura.
+                A Serralheria Bernardo's oferece serviços profissionais de serralharia e remodelações em <strong>Lisboa e região</strong>, 
+                garantindo qualidade, rigor e cumprimento de prazos em todos os projetos.
               </p>
             </div>
           </div>
@@ -233,11 +218,11 @@ export default function SobrePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold text-[#0F172A] mb-6">Conheça melhor o nosso trabalho</h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Entre em contacto connosco para saber como podemos ajudar com o seu projeto de construção civil, Pladur, barramento e pintura
+            Entre em contacto connosco para saber como podemos ajudar com o seu projeto de serralharia, remodelações, pintura, pladur e serviços elétricos
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://wa.me/351934459441?text=Olá,%20gostaria%20de%20conhecer%20melhor%20os%20vossos%20serviços" 
+              href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20conhecer%20melhor%20os%20vossos%20serviços" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-8 py-4 bg-[#D4AF37] text-white rounded-lg font-semibold hover:bg-[#B8860B] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
@@ -246,11 +231,11 @@ export default function SobrePage() {
               Contactar WhatsApp
             </a>
             <a 
-              href="tel:+351934459441"
+              href="tel:+351968747769"
               className="px-8 py-4 bg-[#B8860B] text-white rounded-lg font-semibold hover:bg-[#8B6914] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
             >
               <i className="ri-phone-line text-xl"></i>
-              Ligar Agora
+              Ligar: 968 747 769
             </a>
           </div>
         </div>

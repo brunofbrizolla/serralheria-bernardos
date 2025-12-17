@@ -18,8 +18,8 @@ export default function Header() {
               className="h-12 w-12 object-cover rounded-full border-2 border-[#B8860B]"
             />
             <div className="flex flex-col">
-              <span className="text-2xl font-bold text-[#B8860B]">Greenelite</span>
-              <span className="text-xs text-gray-600 -mt-1">Pladur, Barramento e Pinturas</span>
+              <span className="text-2xl font-bold text-[#B8860B]">Serralheria Bernardo's</span>
+              <span className="text-xs text-gray-600 -mt-1">Serralharia e Remodelações em Geral</span>
             </div>
           </Link>
 
@@ -33,6 +33,30 @@ export default function Header() {
               Home
             </Link>
             <Link 
+              to="/serralharia" 
+              className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
+                isActive('/serralharia') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+              }`}
+            >
+              Serralharia
+            </Link>
+            <Link 
+              to="/remodelacoes" 
+              className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
+                isActive('/remodelacoes') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+              }`}
+            >
+              Remodelações
+            </Link>
+            <Link 
+              to="/pintura" 
+              className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
+                isActive('/pintura') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+              }`}
+            >
+              Pintura
+            </Link>
+            <Link 
               to="/pladur" 
               className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
                 isActive('/pladur') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
@@ -41,28 +65,12 @@ export default function Header() {
               Pladur
             </Link>
             <Link 
-              to="/barramento" 
+              to="/eletricos" 
               className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/barramento') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+                isActive('/eletricos') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
               }`}
             >
-              Barramento
-            </Link>
-            <Link 
-              to="/pintura-industrial" 
-              className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/pintura-industrial') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
-              }`}
-            >
-              Pintura Industrial
-            </Link>
-            <Link 
-              to="/pinturas-geral" 
-              className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/pinturas-geral') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
-              }`}
-            >
-              Pinturas Geral
+              Elétricos
             </Link>
             <Link 
               to="/servicos" 
@@ -92,7 +100,7 @@ export default function Header() {
 
           <div className="hidden lg:flex items-center gap-3">
             <a 
-              href="https://wa.me/351934459441?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" 
+              href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-5 py-2.5 bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white rounded-lg font-medium hover:shadow-lg transition-all cursor-pointer whitespace-nowrap text-sm flex items-center gap-2"
@@ -115,15 +123,17 @@ export default function Header() {
         <div className="lg:hidden bg-white border-t">
           <nav className="container mx-auto px-4 py-4 flex flex-col gap-3">
             <Link to="/" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Home</Link>
+            <Link to="/serralharia" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Serralharia</Link>
+            <Link to="/remodelacoes" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Remodelações</Link>
+            <Link to="/pintura" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Pintura</Link>
             <Link to="/pladur" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Pladur</Link>
-            <Link to="/barramento" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Barramento</Link>
-            <Link to="/pintura-industrial" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Pintura Industrial</Link>
-            <Link to="/pinturas-geral" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Pinturas Geral</Link>
+            <Link to="/eletricos" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Elétricos</Link>
+            <Link to="/manutencao" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Manutenção</Link>
             <Link to="/servicos" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Serviços</Link>
             <Link to="/sobre" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Sobre nós</Link>
             <Link to="/contato" className="py-2 text-gray-700 hover:text-[#B8860B] cursor-pointer" onClick={() => setIsMenuOpen(false)}>Contato</Link>
             <a 
-              href="https://wa.me/351934459441?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" 
+              href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" 
               target="_blank" 
               rel="noopener noreferrer"
               className="mt-2 px-5 py-2.5 bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white rounded-lg font-medium text-center cursor-pointer whitespace-nowrap"

@@ -7,81 +7,95 @@ export default function HomePage() {
 
   const heroImages = [
     {
-      url: 'https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png',
-      title: 'Montagem de Pladur Profissional',
-      subtitle: 'Divisórias modernas, tetos falsos e isolamento acústico em Santiago do Cacém. Mais de 20 anos de experiência em instalação de Pladur.',
-      description: 'A Greenelite é especializada em Pladur, barramento e pinturas. Trabalhamos com Pladur, barramentos gerais, tetos falsos, tetos amovíveis, pintura e remodelação geral com mais de 20 anos de experiência em construção civil.'
-    },
-    {
-      url: 'https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp',
-      title: 'Barramento de Paredes e Nivelamento',
-      subtitle: 'Nivelamento profissional de paredes e preparação de superfícies para pintura em Santiago do Cacém. Mais de 20 anos de experiência em barramento geral.',
-      description: 'A Greenelite oferece soluções completas em barramento geral, tetos falsos e tetos amovíveis. Profissionais qualificados com mais de 20 anos de experiência em construção civil.'
-    },
-    {
       url: 'https://i.ibb.co/d0wz1hP8/PINTURA-INDUSTRIAL.webp',
-      title: 'Pintura Industrial Especializada',
-      subtitle: 'Sistemas anti-corrosão, decapagem e repintura para equipamentos e estruturas metálicas em Santiago do Cacém. Proteção e durabilidade para instalações industriais.',
-      description: 'A Greenelite oferece serviços de pintura industrial e geral, remodelação, renovação e reabilitação. Mais de 20 anos de experiência em construção civil em Santiago do Cacém.'
+      title: 'Serralharia e Remodelações em Geral',
+      subtitle: 'A Serralheria Bernardo\'s presta serviços profissionais de serralharia e remodelações, atendendo toda a região de Lisboa com qualidade, rigor e cumprimento de prazos.',
+      description: 'Serralheria e Remodelações em Geral – Lisboa e Região. Fabrico, reparação e instalação de estruturas metálicas à medida, incluindo portões, grades, corrimões, escadas, vedações, portas metálicas e pequenas estruturas em ferro ou aço.'
+    },
+    {
+      url: 'https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png',
+      title: 'Pladur (Gesso Cartonado)',
+      subtitle: 'Montagem de paredes, tetos falsos, divisórias e soluções em pladur para remodelações e reorganização de espaços. Ideal para melhorar isolamento, estética e funcionalidade de interiores.',
+      description: 'A Serralheria Bernardo\'s presta serviços profissionais de pladur em Lisboa, oferecendo soluções práticas e modernas para remodelação e organização de espaços interiores.'
     },
     {
       url: 'https://i.ibb.co/vgRp9Fk/Chat-GPT-Image-13-de-nov-de-2025-16-16-09.png',
-      title: 'Pinturas Geral Residencial e Comercial',
-      subtitle: 'Especialistas em pinturas geral em Santiago do Cacém. Residencial e comercial com mais de 20 anos de experiência em construção civil.',
-      description: 'A Greenelite oferece soluções completas em remodelação geral, reabilitação e renovação. Profissionais qualificados com mais de 20 anos de experiência em construção civil.'
+      title: 'Serviços de Pintura',
+      subtitle: 'Pintura interior e exterior de casas, apartamentos, lojas e escritórios. Preparação adequada das superfícies, aplicação profissional e acabamentos limpos, garantindo um resultado duradouro e de qualidade.',
+      description: 'A Serralheria Bernardo\'s disponibiliza serviços profissionais de pintura em Lisboa, tanto para interiores como para exteriores, destinados a habitações, apartamentos, lojas, escritórios e condomínios.'
+    },
+    {
+      url: 'https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp',
+      title: 'Remodelações Gerais',
+      subtitle: 'Execução de remodelações parciais ou completas em interiores e exteriores. A Serralheria Bernardo\'s coordena os trabalhos necessários para renovar espaços, melhorar funcionalidade e valorizar o imóvel.',
+      description: 'A Serralheria Bernardo\'s presta serviços profissionais de remodelações gerais em Lisboa, ajudando a renovar, modernizar e valorizar espaços residenciais e comerciais.'
     }
   ];
 
 
   const services = [
     {
-      icon: 'ri-hammer-line',
-      title: 'Pladur',
-      description: 'Instalação profissional de sistemas Pladur para divisórias, tetos falsos e revestimentos com garantia de qualidade.',
-      link: '/pladur',
-      image: 'https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png'
+      icon: 'ri-gate-line',
+      title: 'Serralharia',
+      description: 'Fabrico, reparação e instalação de estruturas metálicas à medida, incluindo portões, grades, corrimões, escadas, vedações, portas metálicas e pequenas estruturas em ferro ou aço.',
+      link: '/serralharia',
+      image: 'https://i.ibb.co/d0wz1hP8/PINTURA-INDUSTRIAL.webp'
     },
     {
-      icon: 'ri-building-line',
-      title: 'Barramento',
-      description: 'Nivelamento profissional de paredes e preparação de superfícies para pintura. Especialistas em barramento geral em Santiago do Cacém.',
-      link: '/barramento',
+      icon: 'ri-home-4-line',
+      title: 'Remodelações Gerais',
+      description: 'Execução de remodelações parciais ou completas em interiores e exteriores. Coordenação dos trabalhos necessários para renovar espaços, melhorar funcionalidade e valorizar o imóvel.',
+      link: '/remodelacoes',
       image: 'https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp'
     },
     {
       icon: 'ri-paint-brush-line',
-      title: 'Pintura Industrial',
-      description: 'Sistemas anti-corrosão, decapagem e repintura para equipamentos e estruturas metálicas. Proteção e durabilidade para instalações industriais.',
-      link: '/pintura-industrial',
-      image: 'https://i.ibb.co/d0wz1hP8/PINTURA-INDUSTRIAL.webp'
+      title: 'Pintura',
+      description: 'Pintura interior e exterior de casas, apartamentos, lojas e escritórios. Preparação adequada das superfícies, aplicação profissional e acabamentos limpos.',
+      link: '/pintura',
+      image: 'https://i.ibb.co/vgRp9Fk/Chat-GPT-Image-13-de-nov-de-2025-16-16-09.png'
     },
     {
-      icon: 'ri-palette-line',
-      title: 'Pinturas Geral',
-      description: 'Especialistas em pinturas geral em Santiago do Cacém. Residencial e comercial com mais de 20 anos de experiência em construção civil.',
-      link: '/pinturas-geral',
-      image: 'https://i.ibb.co/vgRp9Fk/Chat-GPT-Image-13-de-nov-de-2025-16-16-09.png'
+      icon: 'ri-hammer-line',
+      title: 'Pladur',
+      description: 'Montagem de paredes, tetos falsos, divisórias e soluções em pladur para remodelações e reorganização de espaços. Ideal para melhorar isolamento, estética e funcionalidade.',
+      link: '/pladur',
+      image: 'https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png'
+    },
+    {
+      icon: 'ri-wire-line',
+      title: 'Serviços Elétricos',
+      description: 'Trabalhos elétricos em remodelações, incluindo instalação, substituição e reparação de tomadas, iluminação, quadros elétricos e cablagens, sempre com foco na segurança.',
+      link: '/eletricos',
+      image: 'https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png'
+    },
+    {
+      icon: 'ri-tools-line',
+      title: 'Manutenção e Reparações',
+      description: 'Pequenas reparações e trabalhos de manutenção em estruturas metálicas, pintura, pladur e eletricidade, ideais para imóveis habitados, lojas e condomínios.',
+      link: '/manutencao',
+      image: 'https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp'
     }
   ];
 
   const testimonials = [
     {
       name: 'Maria Silva',
-      location: 'Santiago do Cacém',
+      location: 'Lisboa',
       rating: 5,
-      text: 'Excelente serviço! A equipa foi muito profissional e a instalação de Pladur ficou perfeita. Recomendo sem dúvida.',
+      text: 'Excelente serviço! A equipa foi muito profissional e a instalação de serralharia ficou perfeita. Recomendo sem dúvida.',
       date: 'Há 2 semanas'
     },
     {
       name: 'João Santos',
-      location: 'Vale Verde',
+      location: 'Lisboa',
       rating: 5,
-      text: 'Muito satisfeito com o barramento realizado. Técnicos competentes e atendimento de qualidade.',
+      text: 'Muito satisfeito com a remodelação realizada. Técnicos competentes e atendimento de qualidade.',
       date: 'Há 1 mês'
     },
     {
       name: 'Ana Costa',
-      location: 'Santiago do Cacém',
+      location: 'Lisboa',
       rating: 5,
       text: 'Pintura realizada com excelência. O trabalho ficou impecável e a equipa muito profissional. Obrigada!',
       date: 'Há 3 semanas'
@@ -199,11 +213,11 @@ export default function HomePage() {
           <div className="text-center mb-16">
                 <h2 className="text-5xl font-bold text-[#0F172A] mb-6">Os Nossos Serviços</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Soluções completas em Pladur, barramento, pintura e remodelação geral com mais de 20 anos de experiência
+              Serralheria e Remodelações em Geral – Lisboa e Região. Soluções profissionais com qualidade, rigor e cumprimento de prazos.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <Link
                 key={index}
@@ -245,7 +259,7 @@ export default function HomePage() {
       <section className="py-20 bg-[#B8860B] text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Por que escolher a Greenelite?</h2>
+            <h2 className="text-4xl font-bold mb-4">Por que escolher a Serralheria Bernardo's?</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -253,22 +267,22 @@ export default function HomePage() {
               <div className="w-20 h-20 flex items-center justify-center bg-white/10 rounded-full mx-auto mb-4">
                 <i className="ri-award-line text-4xl"></i>
               </div>
-              <h3 className="text-2xl font-bold mb-2">+20 anos</h3>
-              <p className="text-white/90">de experiência em construção civil</p>
+              <h3 className="text-2xl font-bold mb-2">Qualidade</h3>
+              <p className="text-white/90">Trabalhos com rigor e profissionalismo</p>
             </div>
             <div className="text-center">
               <div className="w-20 h-20 flex items-center justify-center bg-white/10 rounded-full mx-auto mb-4">
                 <i className="ri-shield-check-line text-4xl"></i>
               </div>
-              <h3 className="text-2xl font-bold mb-2">Profissionais qualificados</h3>
-              <p className="text-white/90">Equipa experiente e certificada</p>
+              <h3 className="text-2xl font-bold mb-2">Cumprimento de Prazos</h3>
+              <p className="text-white/90">Trabalhos entregues no prazo acordado</p>
             </div>
             <div className="text-center">
               <div className="w-20 h-20 flex items-center justify-center bg-white/10 rounded-full mx-auto mb-4">
                 <i className="ri-map-pin-line text-4xl"></i>
               </div>
-              <h3 className="text-2xl font-bold mb-2">Santiago do Cacém</h3>
-              <p className="text-white/90">Atendimento em toda a região</p>
+              <h3 className="text-2xl font-bold mb-2">Lisboa e Região</h3>
+              <p className="text-white/90">Atendimento em toda a região de Lisboa</p>
             </div>
           </div>
         </div>
@@ -309,10 +323,10 @@ export default function HomePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Fale agora com um especialista</h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Estamos prontos para ajudá-lo com o seu projeto de construção civil, Pladur, barramento e pintura
+            Estamos prontos para ajudá-lo com o seu projeto de serralharia, remodelações, pintura, pladur e serviços elétricos
           </p>
           <a 
-            href="https://wa.me/351934459441?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista" 
+            href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-10 py-5 bg-white text-[#B8860B] rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap text-lg shadow-xl"

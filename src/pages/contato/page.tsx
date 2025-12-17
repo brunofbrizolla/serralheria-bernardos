@@ -70,22 +70,22 @@ export default function ContatoPage() {
     {
       icon: 'ri-whatsapp-line',
       title: 'WhatsApp',
-      value: '+351 934 459 441',
-      link: 'https://wa.me/351934459441',
+      value: '968 747 769',
+      link: 'https://wa.me/351968747769',
       color: 'text-green-600'
     },
     {
       icon: 'ri-phone-line',
       title: 'Telefone',
-      value: '+351 934 459 441',
-      link: 'tel:+351934459441',
+      value: '968 747 769',
+      link: 'tel:+351968747769',
       color: 'text-[#B8860B]'
     },
     {
       icon: 'ri-mail-line',
       title: 'E-mail',
-      value: 'greenelite.flavio@outlook.pt',
-      link: 'mailto:greenelite.flavio@outlook.pt',
+      value: 'geral@serralheriabernardos.pt',
+      link: 'mailto:geral@serralheriabernardos.pt',
       color: 'text-[#D4AF37]'
     },
     {
@@ -104,7 +104,7 @@ export default function ContatoPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Entre em Contacto</h1>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-            Estamos prontos para ajudá-lo com o seu projeto de construção civil, Pladur, barramento e pintura
+            Estamos prontos para ajudá-lo com o seu projeto de serralharia, remodelações, pintura, pladur e serviços elétricos
           </p>
         </div>
       </section>
@@ -178,7 +178,7 @@ export default function ContatoPage() {
                       value={formData.localizacao}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#B8860B] focus:border-transparent text-sm"
-                      placeholder="Cidade, Santiago do Cacém"
+                      placeholder="Cidade, Lisboa"
                     />
                   </div>
                 </div>
@@ -196,9 +196,6 @@ export default function ContatoPage() {
                   >
                     <option value="">Selecione um serviço</option>
                     <option value="pladur">Pladur</option>
-                    <option value="barramento">Barramento Geral</option>
-                    <option value="pintura-industrial">Pintura Industrial</option>
-                    <option value="pintura-geral">Pintura Geral</option>
                     <option value="teto-falso">Teto Falso</option>
                     <option value="teto-amovivel">Teto Amovível</option>
                     <option value="chao-flutuante">Chão Flutuante</option>
@@ -289,24 +286,24 @@ export default function ContatoPage() {
                 <h3 className="font-semibold text-[#B8860B] mb-2">Área de Atendimento</h3>
                 <p className="text-gray-700">
                   <i className="ri-map-pin-line text-[#D4AF37] mr-2"></i>
-                  Vale Verde, 7540-230 Santiago do Cacém
+                  Lisboa e Região
                 </p>
                 <p className="text-sm text-gray-600 mt-2">
-                  Servimos toda a região de Santiago do Cacém e arredores, incluindo Vale Verde e localidades circundantes.
+                  A Serralheria Bernardo's atende toda a região de Lisboa, com deslocação rápida e soluções ajustadas às necessidades de cada cliente.
                 </p>
               </div>
 
               {/* Google Maps */}
               <div className="bg-gray-100 rounded-lg overflow-hidden h-64">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.5!2d-8.6944!3d37.9561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1b3e8f6b2d5f37%3A0x40edb25cf72e2b0!2sSantiago%20do%20Cac%C3%A9m%2C%20Portugal!5e0!3m2!1spt-PT!2spt!4v1643723400000!5m2!1spt-PT!2spt"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49768.9!2d-9.1393!3d38.7223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisboa%2C%20Portugal!5e0!3m2!1spt-PT!2spt!4v1643723400000!5m2!1spt-PT!2spt"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Localização Greenelite - Santiago do Cacém"
+                  title="Localização Serralheria Bernardo's - Lisboa"
                 />
               </div>
             </div>
@@ -322,7 +319,7 @@ export default function ContatoPage() {
             Entre em contacto connosco via WhatsApp para uma resposta mais rápida
           </p>
           <a 
-            href="https://wa.me/351934459441?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" 
+            href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-10 py-5 bg-[#D4AF37] text-white rounded-lg font-bold hover:bg-[#B8860B] transition-all cursor-pointer whitespace-nowrap text-lg shadow-xl"

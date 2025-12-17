@@ -4,116 +4,118 @@ export default function ServicosPage() {
   const services = [
     {
       id: 1,
-      title: 'Pladur',
-      description: 'Instalação profissional de sistemas Pladur para divisórias, tetos falsos e revestimentos. Trabalhamos com materiais de qualidade e instalação especializada.',
-      image: 'https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png',
+      title: 'Serralharia',
+      description: 'Fabrico, reparação e instalação de estruturas metálicas à medida, incluindo portões, grades, corrimões, escadas, vedações, portas metálicas e pequenas estruturas em ferro ou aço.',
+      image: 'https://i.ibb.co/d0wz1hP8/PINTURA-INDUSTRIAL.webp',
       benefits: [
-        'Instalação profissional de sistemas Pladur',
-        'Divisórias e revestimentos de qualidade',
-        'Técnicos especializados e certificados',
-        'Materiais de primeira qualidade',
-        'Garantia em todas as instalações'
+        'Estruturas metálicas à medida',
+        'Portões, grades e vedações',
+        'Corrimões e escadas metálicas',
+        'Trabalhos personalizados',
+        'Robustos e duradouros'
       ],
       features: [
-        'Divisórias em Pladur',
-        'Teto falso em Pladur',
-        'Revestimentos',
-        'Drywall profissional'
+        'Portões metálicos',
+        'Grades de segurança',
+        'Corrimões',
+        'Escadas metálicas',
+        'Vedações',
+        'Portas metálicas'
       ]
     },
     {
       id: 2,
-      title: 'Barramento Geral',
-      description: 'Nivelamento de paredes e preparação de superfícies para pintura. Especialistas em barramento geral em Santiago do Cacém, garantindo paredes lisas e acabamentos de alta qualidade.',
+      title: 'Remodelações Gerais',
+      description: 'Execução de remodelações parciais ou completas em interiores e exteriores. A Serralheria Bernardo\'s coordena os trabalhos necessários para renovar espaços, melhorar funcionalidade e valorizar o imóvel.',
       image: 'https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp',
       benefits: [
-        'Nivelamento profissional de paredes',
-        'Preparação de superfícies para pintura',
-        'Paredes lisas para remodelação',
-        'Acabamentos duradouros',
-        'Mais de 20 anos de experiência'
-      ],
-      features: [
-        'Nivelamento de paredes',
-        'Preparação de superfícies',
-        'Barramento geral',
-        'Paredes lisas para remodelação'
-      ]
-    },
-    {
-      id: 3,
-      title: 'Pintura Industrial',
-      description: 'Pintura industrial e geral com mais de 20 anos de experiência. Serviços de pintura para espaços residenciais, comerciais e industriais.',
-      image: 'https://i.ibb.co/d0wz1hP8/PINTURA-INDUSTRIAL.webp',
-      benefits: [
-        'Pintura industrial especializada',
-        'Pintura geral residencial e comercial',
-        'Mais de 20 anos de experiência',
-        'Materiais de qualidade',
-        'Acabamento profissional'
-      ],
-      features: [
-        'Pintura industrial',
-        'Pintura geral',
-        'Preparação de superfícies',
-        'Acabamento profissional'
-      ]
-    },
-    {
-      id: 4,
-      title: 'Teto Falso',
-      description: 'Instalação de tetos falsos com diferentes materiais e acabamentos. Soluções personalizadas para melhorar o conforto e estética dos espaços.',
-      image: 'https://i.ibb.co/1fzjWqQK/TETO-FALSO.webp',
-      benefits: [
-        'Instalação de tetos falsos',
-        'Diferentes materiais disponíveis',
-        'Acabamentos personalizados',
-        'Isolamento acústico e térmico',
-        'Instalação profissional'
-      ],
-      features: [
-        'Teto falso em Pladur',
-        'Teto falso em PVC',
-        'Teto falso em madeira',
-        'Iluminação integrada'
-      ]
-    },
-    {
-      id: 5,
-      title: 'Chão Flutuante',
-      description: 'Instalação de chão flutuante com diferentes materiais e acabamentos. Soluções modernas e duráveis para o seu espaço.',
-      image: 'https://i.ibb.co/spw64zLN/CHAO-FLUTUANTE.webp',
-      benefits: [
-        'Instalação de chão flutuante',
-        'Diferentes materiais disponíveis',
-        'Isolamento acústico',
-        'Fácil manutenção',
-        'Instalação rápida e profissional'
-      ],
-      features: [
-        'Chão flutuante em madeira',
-        'Chão flutuante em PVC',
-        'Chão flutuante em vinil',
-        'Instalação profissional'
-      ]
-    },
-    {
-      id: 6,
-      title: 'Remodelação Geral',
-      description: 'Remodelação geral de espaços residenciais e comerciais. Serviços completos de transformação com mais de 20 anos de experiência.',
-      image: 'https://i.ibb.co/LDHjFX7D/REMODELA-OAO.webp',
-      benefits: [
-        'Remodelação geral completa',
-        'Mais de 20 anos de experiência',
-        'Projetos personalizados',
-        'Equipa qualificada',
-        'Transformação total do espaço'
+        'Remodelações parciais ou completas',
+        'Coordenação de trabalhos',
+        'Renovação de espaços',
+        'Melhoria de funcionalidade',
+        'Valorização do imóvel'
       ],
       features: [
         'Remodelação de interiores',
         'Remodelação de exteriores',
-        'Projetos completos',
-        'Acompanhamento profissional'
+        'Coordenação de obras',
+        'Projetos personalizados'
+      ]
+    },
+    {
+      id: 3,
+      title: 'Pintura',
+      description: 'Pintura interior e exterior de casas, apartamentos, lojas e escritórios. Preparação adequada das superfícies, aplicação profissional e acabamentos limpos, garantindo um resultado duradouro e de qualidade.',
+      image: 'https://i.ibb.co/vgRp9Fk/Chat-GPT-Image-13-de-nov-de-2025-16-16-09.png',
+      benefits: [
+        'Pintura interior e exterior',
+        'Preparação adequada de superfícies',
+        'Aplicação profissional',
+        'Acabamentos limpos',
+        'Resultado duradouro'
+      ],
+      features: [
+        'Pintura de paredes',
+        'Pintura de tetos',
+        'Pintura de fachadas',
+        'Preparação de superfícies'
+      ]
+    },
+    {
+      id: 4,
+      title: 'Pladur (Gesso Cartonado)',
+      description: 'Montagem de paredes, tetos falsos, divisórias e soluções em pladur para remodelações e reorganização de espaços. Ideal para melhorar isolamento, estética e funcionalidade de interiores.',
+      image: 'https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png',
+      benefits: [
+        'Montagem de paredes em pladur',
+        'Tetos falsos',
+        'Divisórias',
+        'Isolamento térmico e acústico',
+        'Soluções versáteis'
+      ],
+      features: [
+        'Paredes em pladur',
+        'Tetos falsos',
+        'Divisórias',
+        'Sancas e nichos'
+      ]
+    },
+    {
+      id: 5,
+      title: 'Serviços Elétricos',
+      description: 'Trabalhos elétricos em remodelações, incluindo instalação, substituição e reparação de tomadas, iluminação, quadros elétricos e cablagens, sempre com foco na segurança e no cumprimento das normas.',
+      image: 'https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png',
+      benefits: [
+        'Instalação elétrica',
+        'Substituição e reparação',
+        'Quadros elétricos',
+        'Iluminação',
+        'Cumprimento de normas'
+      ],
+      features: [
+        'Instalação de tomadas',
+        'Iluminação',
+        'Quadros elétricos',
+        'Cablagens'
+      ]
+    },
+    {
+      id: 6,
+      title: 'Manutenção e Reparações',
+      description: 'Pequenas reparações e trabalhos de manutenção em estruturas metálicas, pintura, pladur e eletricidade, ideais para imóveis habitados, lojas e condomínios.',
+      image: 'https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp',
+      benefits: [
+        'Reparações rápidas',
+        'Manutenção preventiva',
+        'Mínimo incómodo',
+        'Resposta rápida',
+        'Serviço profissional'
+      ],
+      features: [
+        'Reparação de estruturas',
+        'Reparação de pintura',
+        'Reparação de pladur',
+        'Reparação elétrica'
       ]
     },
   ];
@@ -125,7 +127,7 @@ export default function ServicosPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Os Nossos Serviços</h1>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-            A Greenelite oferece uma gama abrangente de serviços de construção civil, especializada em Pladur, barramento, pintura e remodelação geral com mais de 20 anos de experiência
+            A Serralheria Bernardo's presta serviços profissionais de serralharia e remodelações, atendendo toda a região de Lisboa com qualidade, rigor e cumprimento de prazos
           </p>
         </div>
       </section>
@@ -174,9 +176,12 @@ export default function ServicosPage() {
                   <div className="flex flex-col sm:flex-row gap-3">
                     <Link
                       to={
-                        service.id === 1 ? '/pladur' : 
-                        service.id === 2 ? '/barramento' : 
-                        service.id === 3 ? '/pintura-industrial' : 
+                        service.id === 1 ? '/serralharia' : 
+                        service.id === 2 ? '/remodelacoes' : 
+                        service.id === 3 ? '/pintura' : 
+                        service.id === 4 ? '/pladur' :
+                        service.id === 5 ? '/eletricos' :
+                        service.id === 6 ? '/manutencao' :
                         '/servicos'
                       }
                       className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white rounded-lg font-semibold hover:shadow-lg transition-all cursor-pointer whitespace-nowrap"
@@ -185,7 +190,7 @@ export default function ServicosPage() {
                       Saber Mais
                     </Link>
                     <a 
-                      href="https://wa.me/351934459441?text=Olá,%20gostaria%20de%20uma%20avaliação%20técnica" 
+                      href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20uma%20avaliação%20técnica" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-8 py-4 bg-white border-2 border-[#B8860B] text-[#B8860B] rounded-lg font-semibold hover:bg-[#B8860B] hover:text-white transition-all cursor-pointer whitespace-nowrap"
@@ -210,7 +215,7 @@ export default function ServicosPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="https://wa.me/351934459441?text=Olá,%20preciso%20de%20um%20orçamento%20personalizado" 
+              href="https://wa.me/351968747769?text=Olá,%20preciso%20de%20um%20orçamento%20personalizado" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-8 py-4 bg-[#D4AF37] text-white rounded-lg font-semibold hover:bg-[#B8860B] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
@@ -219,11 +224,11 @@ export default function ServicosPage() {
               Contactar WhatsApp
             </a>
             <a 
-              href="tel:+351934459441"
+              href="tel:+351968747769"
               className="px-8 py-4 bg-[#B8860B] text-white rounded-lg font-semibold hover:bg-[#8B6914] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
             >
               <i className="ri-phone-line text-xl"></i>
-              Ligar Agora
+              Ligar: 968 747 769
             </a>
           </div>
         </div>

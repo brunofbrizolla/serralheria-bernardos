@@ -2,15 +2,15 @@ import { useEffect } from 'react';
 
 export default function PladurPage() {
   useEffect(() => {
-    document.title = 'Montagem de Pladur - Divisórias e Tetos Falsos | Greenelite - Santiago do Cacém';
+    document.title = 'Pladur (Gesso Cartonado) em Lisboa | Serralheria Bernardo\'s';
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Montagem de Pladur em Santiago do Cacém. Divisórias para escritórios, tetos rebaixados, isolamento acústico. Paredes em Pladur para casas e empresas. Orçamento gratuito.');
+      metaDescription.setAttribute('content', 'A Serralheria Bernardo\'s presta serviços profissionais de pladur em Lisboa, oferecendo soluções práticas e modernas para remodelação e organização de espaços interiores.');
     } else {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = 'Montagem de Pladur em Santiago do Cacém. Divisórias para escritórios, tetos rebaixados, isolamento acústico. Paredes em Pladur para casas e empresas. Orçamento gratuito.';
+      meta.content = 'A Serralheria Bernardo\'s presta serviços profissionais de pladur em Lisboa, oferecendo soluções práticas e modernas para remodelação e organização de espaços interiores.';
       document.head.appendChild(meta);
     }
   }, []);
@@ -18,19 +18,17 @@ export default function PladurPage() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Greenelite Unipessoal Lda - Montagem de Pladur",
-    "description": "Montagem de Pladur em Santiago do Cacém. Divisórias para escritórios, tetos rebaixados, isolamento acústico e térmico.",
-    "url": "https://greenelite.pt/pladur",
-    "telephone": "+351934459441",
-    "email": "greenelite.flavio@outlook.pt",
+    "name": "Serralheria Bernardo's - Pladur (Gesso Cartonado)",
+    "description": "Pladur em Lisboa. Montagem de paredes, tetos falsos, divisórias e soluções em pladur para remodelações e reorganização de espaços.",
+    "url": "https://serralheriabernardos.pt/pladur",
+    "telephone": "+351968747769",
+    "email": "geral@serralheriabernardos.pt",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Vale Verde",
-      "addressLocality": "Santiago do Cacém",
-      "postalCode": "7540-230",
+      "addressLocality": "Lisboa",
       "addressCountry": "PT"
     },
-    "serviceType": "Montagem de Pladur, Divisórias e Tetos Falsos"
+    "serviceType": "Pladur, Gesso Cartonado, Divisórias e Tetos Falsos"
   };
 
   return (
@@ -56,14 +54,14 @@ export default function PladurPage() {
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto text-center">
                 <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight px-4" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.5), 0 1px 5px rgba(0,0,0,0.3)' }}>
-                  Montagem de Pladur Profissional
+                  Pladur (Gesso Cartonado) em Lisboa
                 </h1>
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white max-w-3xl mx-auto leading-relaxed mb-6 sm:mb-10 font-semibold px-4" style={{ textShadow: '0 1px 8px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3)' }}>
-                  Divisórias modernas, tetos falsos e isolamento acústico em Santiago do Cacém. Mais de 20 anos de experiência em instalação de Pladur.
+                  A Serralheria Bernardo's presta serviços profissionais de pladur em Lisboa, oferecendo soluções práticas e modernas para remodelação e organização de espaços interiores.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
                   <a 
-                    href="https://wa.me/351934459441?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20Montagem%20de%20Pladur" 
+                    href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20Pladur" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-[#B8860B] rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2 text-base sm:text-lg shadow-xl"
@@ -73,7 +71,7 @@ export default function PladurPage() {
                     <span className="sm:hidden">Orçamento Grátis</span>
                   </a>
                   <a 
-                    href="tel:+351934459441"
+                    href="tel:+351968747769"
                     className="px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-sm text-white rounded-lg font-bold hover:bg-white/20 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2 border-2 border-white/30 text-base sm:text-lg"
                   >
                     <i className="ri-phone-line text-xl sm:text-2xl"></i>
@@ -99,11 +97,17 @@ export default function PladurPage() {
               
               <div className="bg-green-50 border-l-4 border-[#D4AF37] rounded-lg p-6">
                 <h2 className="text-2xl font-bold text-[#0F172A] mb-4">A Solução: Montagem de Pladur Profissional</h2>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  A <strong>Serralheria Bernardo's</strong> presta serviços profissionais de pladur em <strong>Lisboa</strong>, oferecendo soluções práticas e modernas para remodelação e organização de espaços interiores. O pladur, também conhecido como gesso cartonado, é ideal para criar divisórias, tetos falsos e revestimentos com rapidez, limpeza e excelente acabamento.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  Executamos montagem de paredes em pladur, tetos falsos, sancas, nichos e outras estruturas, permitindo dividir ambientes, melhorar o isolamento térmico e acústico e ocultar instalações elétricas ou canalizações. Cada projeto é adaptado às necessidades do espaço e do cliente.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  Os nossos serviços de pladur em <strong>Lisboa</strong> são indicados tanto para remodelações como para obras novas, em habitações, escritórios e espaços comerciais. Trabalhamos com materiais de qualidade e técnicas adequadas para garantir resistência, alinhamento perfeito e acabamentos profissionais.
+                </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  A <strong>Greenelite Unipessoal Lda.</strong> é especialista em instalação de Pladur em 
-                  <strong> Santiago do Cacém</strong>, oferecendo serviços como <strong>divisórias para escritórios</strong>, 
-                  <strong> tetos falsos modernos</strong> e <strong>isolamento acústico e térmico</strong>. 
-                  Remodelações rápidas, com acabamentos duradouros e estéticos, estão ao seu alcance.
+                  A Serralheria Bernardo's atua em toda a região de Lisboa, assegurando cumprimento de prazos, organização no local e um resultado final funcional e esteticamente cuidado. Se procura uma solução versátil e eficiente para remodelar interiores, o pladur é a escolha certa.
                 </p>
               </div>
             </div>
@@ -114,16 +118,16 @@ export default function PladurPage() {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-[#0F172A] mb-4">Por que escolher a Greenelite para Pladur?</h2>
+              <h2 className="text-4xl font-bold text-[#0F172A] mb-4">Por que escolher a Serralheria Bernardo's para Pladur?</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Mais de 20 anos de experiência em montagem de Pladur em Santiago do Cacém
+                Serviços profissionais de pladur em Lisboa com qualidade e cumprimento de prazos
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
               {[
                 { icon: 'ri-award-line', title: '20+ Anos', desc: 'de experiência' },
                 { icon: 'ri-shield-check-line', title: 'Garantia', desc: 'em todas as instalações' },
-                { icon: 'ri-map-pin-line', title: 'Santiago do Cacém', desc: 'e região' }
+                { icon: 'ri-map-pin-line', title: 'Lisboa', desc: 'e região' }
               ].map((item, i) => (
                 <div key={i} className="text-center p-6 bg-white rounded-xl shadow-sm">
                   <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#B8860B] to-[#D4AF37] rounded-full mx-auto mb-4">
@@ -236,7 +240,7 @@ export default function PladurPage() {
               <h3 className="text-2xl font-bold text-[#0F172A] mb-4 text-center">Áreas de Atuação</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
                 <div className="p-4 bg-white rounded-lg">
-                  <p className="text-gray-700 font-semibold">Pladur Santiago do Cacém</p>
+                  <p className="text-gray-700 font-semibold">Pladur Lisboa</p>
                 </div>
                 <div className="p-4 bg-white rounded-lg">
                   <p className="text-gray-700 font-semibold">Divisórias para escritórios</p>
@@ -263,25 +267,25 @@ export default function PladurPage() {
                 Entre em contacto connosco hoje e receba um orçamento personalizado para montagem de Pladur. Remodelações rápidas com acabamentos duradouros.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="https://wa.me/351934459441?text=Olá,%20gostaria%20de%20um%20orçamento%20gratuito%20para%20Montagem%20de%20Pladur" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="px-10 py-5 bg-white text-[#B8860B] rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-3 text-lg shadow-xl"
-                >
-                  <i className="ri-whatsapp-line text-2xl"></i>
-                  WhatsApp - Orçamento Grátis
-                </a>
-                <a 
-                  href="tel:+351934459441"
-                  className="px-10 py-5 bg-white/10 backdrop-blur-sm text-white rounded-lg font-bold hover:bg-white/20 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-3 border border-white/20 text-lg"
-                >
-                  <i className="ri-phone-line text-2xl"></i>
-                  Ligar: +351 934 459 441
-                </a>
+                  <a 
+                    href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20um%20orçamento%20gratuito%20para%20Pladur" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="px-10 py-5 bg-white text-[#B8860B] rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-3 text-lg shadow-xl"
+                  >
+                    <i className="ri-whatsapp-line text-2xl"></i>
+                    WhatsApp - Orçamento Grátis
+                  </a>
+                  <a 
+                    href="tel:+351968747769"
+                    className="px-10 py-5 bg-white/10 backdrop-blur-sm text-white rounded-lg font-bold hover:bg-white/20 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-3 border border-white/20 text-lg"
+                  >
+                    <i className="ri-phone-line text-2xl"></i>
+                    Ligar: 968 747 769
+                  </a>
               </div>
               <p className="mt-6 text-sm opacity-75">
-                📍 Vale Verde, 7540-230 Santiago do Cacém | ✉️ greenelite.flavio@outlook.pt
+                ✉️ geral@serralheriabernardos.pt | 📍 Lisboa e Região
               </p>
             </div>
           </div>

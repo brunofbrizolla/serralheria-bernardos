@@ -13,12 +13,12 @@ export default function Footer() {
                 className="h-12 w-auto object-contain"
               />
               <div className="flex flex-col">
-                <span className="text-xl font-bold">Greenelite</span>
-                <span className="text-xs text-gray-400">Pladur, Barramento e Pinturas</span>
+                <span className="text-xl font-bold">Serralheria Bernardo's</span>
+                <span className="text-xs text-gray-400">Serralharia e Remodelações em Geral</span>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              Empresa de prestação de serviços focada na construção civil, trabalhamos com Pladur, barramentos gerais, tetos falsos, tetos amovíveis, pintura, remodelação geral com mais de 20 anos de experiência.
+              A Serralheria Bernardo's presta serviços profissionais de serralharia e remodelações, atendendo toda a região de Lisboa com qualidade, rigor e cumprimento de prazos.
             </p>
             <div className="flex items-center gap-3">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-9 h-9 flex items-center justify-center bg-white/10 rounded-full hover:bg-[#D4AF37] transition-colors cursor-pointer">
@@ -47,9 +47,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Serviços</h3>
             <ul className="space-y-2">
               <li><Link to="/pladur" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-sm cursor-pointer">Pladur</Link></li>
-              <li><Link to="/barramento" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-sm cursor-pointer">Barramento Geral</Link></li>
-              <li><Link to="/pintura-industrial" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-sm cursor-pointer">Pintura Industrial</Link></li>
-              <li><Link to="/pinturas-geral" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-sm cursor-pointer">Pinturas Geral</Link></li>
+              <li><Link to="/pintura" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-sm cursor-pointer">Pintura</Link></li>
               <li><Link to="/servicos" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-sm cursor-pointer">Teto Falso</Link></li>
               <li><Link to="/servicos" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-sm cursor-pointer">Chão Flutuante</Link></li>
               <li><Link to="/servicos" className="text-gray-400 hover:text-[#D4AF37] transition-colors text-sm cursor-pointer">Remodelação Geral</Link></li>
@@ -61,11 +59,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm">
                 <i className="ri-phone-line text-[#D4AF37] mt-0.5"></i>
-                <a href="tel:+351934459441" className="text-gray-400 hover:text-[#D4AF37] transition-colors cursor-pointer">+351 934 459 441</a>
+                <a href="tel:+351968747769" className="text-gray-400 hover:text-[#D4AF37] transition-colors cursor-pointer">968 747 769</a>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <i className="ri-mail-line text-[#D4AF37] mt-0.5"></i>
-                <a href="mailto:greenelite.flavio@outlook.pt" className="text-gray-400 hover:text-[#D4AF37] transition-colors cursor-pointer">greenelite.flavio@outlook.pt</a>
+                <a href="mailto:geral@serralheriabernardos.pt" className="text-gray-400 hover:text-[#D4AF37] transition-colors cursor-pointer">geral@serralheriabernardos.pt</a>
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <i className="ri-time-line text-[#D4AF37] mt-0.5"></i>
@@ -73,7 +71,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2 text-sm">
                 <i className="ri-map-pin-line text-[#D4AF37] mt-0.5"></i>
-                <span className="text-gray-400">Vale Verde, 7540-230 Santiago do Cacém</span>
+                <span className="text-gray-400">Lisboa e Região</span>
               </li>
             </ul>
           </div>
@@ -95,12 +93,12 @@ export default function Footer() {
           <div className="bg-[#D4AF37]/10 border border-[#D4AF37]/20 rounded-lg p-4 mb-4">
             <p className="text-xs text-gray-400 leading-relaxed">
               <i className="ri-information-line text-[#D4AF37] mr-1"></i>
-              Empresa certificada com mais de 20 anos de experiência em construção civil, especializada em Pladur, barramento, pintura e remodelação geral.
+              Serralheria e Remodelações em Geral – Lisboa e Região. Serviços profissionais com qualidade, rigor e cumprimento de prazos.
             </p>
           </div>
 
           <div className="text-center text-sm text-gray-400">
-            <p>Greenelite unipessoal Lda ® 2025. Todos os direitos reservados.</p>
+            <p>Serralheria Bernardo's ® 2025. Todos os direitos reservados.</p>
           </div>
         </div>
       </div>

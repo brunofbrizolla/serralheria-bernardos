@@ -28,7 +28,7 @@ const ChatWidget = () => {
   // Avatar image
   const avatarUrl = 'https://i.ibb.co/XxpSPp9y/Chat-GPT-Image-31-de-out-de-2025-15-51-29-11zon.webp';
   const chatButtonImage = 'https://i.ibb.co/XxpSPp9y/Chat-GPT-Image-31-de-out-de-2025-15-51-29-11zon.webp';
-  const whatsappNumber = '351934459441';
+  const whatsappNumber = '351968747769';
 
   useEffect(() => {
     if (isOpen && currentStep === 'greeting' && messages.length === 0) {
@@ -36,7 +36,7 @@ const ChatWidget = () => {
       const greetingMessage: Message = {
         id: Date.now().toString(),
         type: 'bot',
-        text: 'Olá! Sou o assistente da Greenelite. Como posso ajudá-lo hoje? Qual é o seu nome?',
+        text: 'Olá! Sou o assistente da Serralheria Bernardo\'s. Como posso ajudá-lo hoje? Qual é o seu nome?',
         timestamp: new Date()
       };
       setMessages([greetingMessage]);
@@ -187,7 +187,7 @@ const ChatWidget = () => {
         // Simular um pequeno delay
         await new Promise(resolve => setTimeout(resolve, 1000));
         setIsSending(false);
-        addBotMessage('Obrigado pelas informações! Em breve entraremos em contacto para dar seguimento ao seu pedido. Obrigado por escolher a Greenelite!');
+        addBotMessage('Obrigado pelas informações! Em breve entraremos em contacto para dar seguimento ao seu pedido. Obrigado por escolher a Serralheria Bernardo\'s!');
         setCurrentStep('complete');
         break;
     }
