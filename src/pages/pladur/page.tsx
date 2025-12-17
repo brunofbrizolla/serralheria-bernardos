@@ -95,7 +95,7 @@ export default function PladurPage() {
                 </p>
               </div>
               
-              <div className="bg-green-50 border-l-4 border-[#D4AF37] rounded-lg p-6">
+              <div className="bg-green-50 border-l-4 border-bernardos-red rounded-lg p-6">
                 <h2 className="text-2xl font-bold text-[#0F172A] mb-4">A Solução: Montagem de Pladur Profissional</h2>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   A <strong>Serralheria Bernardo's</strong> presta serviços profissionais de pladur em <strong>Lisboa</strong>, oferecendo soluções práticas e modernas para remodelação e organização de espaços interiores. O pladur, também conhecido como gesso cartonado, é ideal para criar divisórias, tetos falsos e revestimentos com rapidez, limpeza e excelente acabamento.
@@ -130,7 +130,7 @@ export default function PladurPage() {
                 { icon: 'ri-map-pin-line', title: 'Lisboa', desc: 'e região' }
               ].map((item, i) => (
                 <div key={i} className="text-center p-6 bg-white rounded-xl shadow-sm">
-                  <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#B8860B] to-[#D4AF37] rounded-full mx-auto mb-4">
+                  <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mx-auto mb-4">
                     <i className={`${item.icon} text-3xl text-white`}></i>
                   </div>
                   <h3 className="text-2xl font-bold text-[#0F172A] mb-2">{item.title}</h3>
@@ -198,7 +198,7 @@ export default function PladurPage() {
                   }
                 ].map((feature, index) => (
                   <div key={index} className="bg-gray-50 border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
-                    <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#B8860B] to-[#D4AF37] rounded-full mb-4">
+                    <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mb-4">
                       <i className={`${feature.icon} text-3xl text-white`}></i>
                     </div>
                     <h4 className="text-xl font-bold text-[#0F172A] mb-3">{feature.title}</h4>
@@ -232,7 +232,7 @@ export default function PladurPage() {
             </div>
 
             {/* Keywords Section */}
-            <div className="mb-16 bg-[#B8860B]/5 border border-[#B8860B]/20 rounded-xl p-8">
+            <div className="mb-16 bg-bernardos-red/5 border border-bernardos-red/20 rounded-xl p-8">
               <h3 className="text-2xl font-bold text-[#0F172A] mb-4 text-center">Áreas de Atuação</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-center">
                 <div className="p-4 bg-white rounded-lg">
@@ -257,7 +257,7 @@ export default function PladurPage() {
             </div>
 
             {/* CTA Section */}
-            <div className="bg-gradient-to-r from-[#B8860B] to-[#D4AF37] rounded-2xl p-12 text-center text-white">
+            <div className="bg-gradient-to-r from-bernardos-red to-bernardos-red-dark rounded-2xl p-12 text-center text-white">
               <h3 className="text-4xl font-bold mb-4">Solicite o Seu Orçamento Grátis</h3>
               <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
                 Entre em contacto connosco hoje e receba um orçamento personalizado para montagem de Pladur. Remodelações rápidas com acabamentos duradouros.

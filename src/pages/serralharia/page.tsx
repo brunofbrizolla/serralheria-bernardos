@@ -110,7 +110,7 @@ export default function SerralhariaPage() {
                   { icon: 'ri-door-line', title: 'Portas Metálicas', desc: 'Portas metálicas de segurança' }
                 ].map((item, i) => (
                   <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
-                    <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[#B8860B] to-[#D4AF37] rounded-full mb-4">
+                    <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mb-4">
                       <i className={`${item.icon} text-3xl text-white`}></i>
                     </div>
                     <h4 className="text-xl font-bold text-[#0F172A] mb-3">{item.title}</h4>
@@ -123,7 +123,7 @@ export default function SerralhariaPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-r from-[#B8860B] to-[#D4AF37]">
+        <section className="py-20 bg-gradient-to-r from-bernardos-red to-bernardos-red-dark">
           <div className="container mx-auto px-4 text-center">
             <h3 className="text-4xl font-bold text-white mb-4">Solicite o Seu Orçamento Grátis</h3>
             <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
