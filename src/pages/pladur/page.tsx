@@ -148,21 +148,17 @@ export default function PladurPage() {
               <div>
                 <img 
                   src="https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png"
-                  alt="Montagem de Pladur em Santiago do Cacém - Divisórias modernas e tetos falsos"
+                  alt="Pladur em Lisboa - Divisórias modernas e tetos falsos"
                   className="w-full h-96 object-cover rounded-2xl shadow-lg"
                 />
               </div>
               <div>
-                <h2 className="text-4xl font-bold text-[#0F172A] mb-6">Especialistas em Montagem de Pladur em Santiago do Cacém</h2>
+                <h2 className="text-4xl font-bold text-[#0F172A] mb-6">Especialistas em Pladur em Lisboa</h2>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  Se procura <strong>"montagem de Pladur"</strong>, <strong>"divisórias modernas"</strong> ou 
-                  <strong> "tetos falsos em Santiago do Cacém"</strong>, encontrou a solução ideal. O Pladur é uma opção eficiente e versátil, 
-                  perfeita para criar espaços funcionais e com design sofisticado, seja em casa, escritório ou loja.
+                  Executamos montagem de paredes em pladur, tetos falsos, sancas, nichos e outras estruturas, permitindo dividir ambientes, melhorar o isolamento térmico e acústico e ocultar instalações elétricas ou canalizações. Cada projeto é adaptado às necessidades do espaço e do cliente.
                 </p>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  A <strong>Greenelite Unipessoal Lda.</strong> é especialista em instalação de Pladur em 
-                  <strong> Santiago do Cacém</strong>, oferecendo serviços como divisórias para escritórios, tetos falsos modernos e 
-                  isolamento acústico e térmico.
+                  Os nossos serviços de pladur em <strong>Lisboa</strong> são indicados tanto para remodelações como para obras novas, em habitações, escritórios e espaços comerciais. Trabalhamos com materiais de qualidade e técnicas adequadas para garantir resistência, alinhamento perfeito e acabamentos profissionais.
                 </p>
                 <ul className="space-y-3">
                   {['Remodelações rápidas', 'Acabamentos duradouros', 'Isolamento acústico e térmico', 'Design sofisticado'].map((item, i) => (

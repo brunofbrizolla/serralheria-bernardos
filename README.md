@@ -1,6 +1,6 @@
-# Greenelite - Site Institucional
+# Serralheria Bernardo's - Site Institucional
 
-Site institucional da Greenelite Unipessoal Lda - Especialistas em Pladur, Barramento e Pinturas em Santiago do Cacém.
+Site institucional da Serralheria Bernardo's - Serralharia e Remodelações em Geral – Lisboa e Região.
 
 ## 🚀 Tecnologias
 

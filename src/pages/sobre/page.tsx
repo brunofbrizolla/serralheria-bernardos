@@ -85,7 +85,7 @@ export default function SobrePage() {
               <div className="relative">
                 <img 
                   src="https://readdy.ai/api/search-image?query=professional%20construction%20workers%20team%20working%20on%20pladur%20drywall%20installation%20portuguese%20company%20santiago%20do%20cacem%20region%20teamwork%20quality%20service&width=600&height=400&seq=company-story&orientation=landscape"
-                  alt="História da Greenelite"
+                  alt="História da Serralheria Bernardo's"
                   className="w-full h-80 object-cover rounded-2xl shadow-lg"
                 />
                 <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm p-3 rounded-full shadow-xl border-2 border-[#B8860B]">

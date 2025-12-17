@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <img 
                 src="https://i.ibb.co/9HRRKhQf/Imagem-do-Whats-App-de-2025-11-13-s-10-48-58-4162b361.webp" 
-                alt="Greenelite Logo" 
+                alt="Serralheria Bernardo's Logo" 
                 className="h-12 w-auto object-contain"
               />
               <div className="flex flex-col">
