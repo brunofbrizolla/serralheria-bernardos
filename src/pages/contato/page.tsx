@@ -86,7 +86,7 @@ export default function ContatoPage() {
       title: 'E-mail',
       value: 'geral@serralheriabernardos.pt',
       link: 'mailto:geral@serralheriabernardos.pt',
-      color: 'text-[#D4AF37]'
+      color: 'text-bernardos-red'
     },
     {
       icon: 'ri-time-line',

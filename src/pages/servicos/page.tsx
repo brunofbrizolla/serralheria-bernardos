@@ -154,7 +154,7 @@ export default function ServicosPage() {
                     <ul className="space-y-2">
                       {service.benefits.map((benefit, i) => (
                         <li key={i} className="flex items-center gap-3">
-                          <i className="ri-check-line text-[#D4AF37] text-xl"></i>
+                          <i className="ri-check-line text-bernardos-red text-xl"></i>
                           <span className="text-gray-700">{benefit}</span>
                         </li>
                       ))}
@@ -166,7 +166,7 @@ export default function ServicosPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {service.features.map((feature, i) => (
                         <div key={i} className="flex items-center gap-2">
-                          <i className="ri-arrow-right-s-line text-[#D4AF37]"></i>
+                          <i className="ri-arrow-right-s-line text-bernardos-red"></i>
                           <span className="text-gray-700 text-sm">{feature}</span>
                         </div>
                       ))}
@@ -193,7 +193,7 @@ export default function ServicosPage() {
                       href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20uma%20avaliação%20técnica" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-8 py-4 bg-white border-2 border-[#B8860B] text-bernardos-red rounded-lg font-semibold hover:bg-[#B8860B] hover:text-white transition-all cursor-pointer whitespace-nowrap"
+                      className="inline-flex items-center gap-2 px-8 py-4 bg-white border-2 border-bernardos-red text-bernardos-red rounded-lg font-semibold hover:bg-bernardos-red-dark hover:text-white transition-all cursor-pointer whitespace-nowrap"
                     >
                       <i className="ri-whatsapp-line text-xl"></i>
                       Pedir Orçamento
@@ -218,14 +218,14 @@ export default function ServicosPage() {
               href="https://wa.me/351968747769?text=Olá,%20preciso%20de%20um%20orçamento%20personalizado" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-[#D4AF37] text-white rounded-lg font-semibold hover:bg-[#B8860B] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
+              className="px-8 py-4 bg-[#D4AF37] text-white rounded-lg font-semibold hover:bg-bernardos-red-dark transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
             >
               <i className="ri-whatsapp-line text-xl"></i>
               Contactar WhatsApp
             </a>
             <a 
               href="tel:+351968747769"
-              className="px-8 py-4 bg-[#B8860B] text-white rounded-lg font-semibold hover:bg-[#8B6914] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
+              className="px-8 py-4 bg-bernardos-red text-white rounded-lg font-semibold hover:bg-[#8B6914] transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
             >
               <i className="ri-phone-line text-xl"></i>
               Ligar: 968 747 769

@@ -88,7 +88,7 @@ export default function SobrePage() {
                   alt="História da Serralheria Bernardo's"
                   className="w-full h-80 object-cover rounded-2xl shadow-lg"
                 />
-                <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm p-3 rounded-full shadow-xl border-2 border-[#B8860B]">
+                <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm p-3 rounded-full shadow-xl border-2 border-bernardos-red">
                   <img 
                     src="https://i.ibb.co/9HRRKhQf/Imagem-do-Whats-App-de-2025-11-13-s-10-48-58-4162b361.webp" 
                     alt="Serralheria Bernardo's Logo" 

@@ -160,7 +160,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/servicos"
-                  className="bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white px-8 py-4 rounded-lg font-semibold hover:from-bernardos-red-dark hover:to-bernardos-red transition-all duration-300 transform hover:scale-105 shadow-lg text-center whitespace-nowrap"
+                  className="bg-gradient-to-r from-bernardos-red to-bernardos-red-dark text-white px-8 py-4 rounded-lg font-semibold hover:from-bernardos-red-dark hover:to-bernardos-red transition-all duration-300 transform hover:scale-105 shadow-lg text-center whitespace-nowrap"
                 >
                   Ver Serviços
                 </Link>
@@ -319,7 +319,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section id="fale-agora-section" className="py-20 bg-gradient-to-r from-[#B8860B] to-[#D4AF37]">
+      <section id="fale-agora-section" className="py-20 bg-gradient-to-r from-bernardos-red to-bernardos-red-dark">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Fale agora com um especialista</h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
