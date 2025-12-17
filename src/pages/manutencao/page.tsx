@@ -40,7 +40,7 @@ export default function ManutencaoPage() {
         <section className="relative h-[600px] md:h-[700px] overflow-hidden">
           <div className="absolute inset-0">
             <img 
-              src="https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp"
+              src="https://i.ibb.co/MDjmnWtL/5-11zon-1.jpg"
               alt="Manutenção e Reparações Profissionais"
               className="w-full h-full object-cover"
             />

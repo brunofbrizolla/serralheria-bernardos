@@ -7,7 +7,7 @@ export default function HomePage() {
 
   const heroImages = [
     {
-      url: 'https://i.ibb.co/d0wz1hP8/PINTURA-INDUSTRIAL.webp',
+      url: 'https://i.ibb.co/kVrv3Jkf/serralheria.webp',
       title: 'Serralharia e Remodelações em Geral',
       subtitle: 'A Serralheria Bernardo\'s presta serviços profissionais de serralharia e remodelações, atendendo toda a região de Lisboa com qualidade, rigor e cumprimento de prazos.',
       description: 'Serralheria e Remodelações em Geral – Lisboa e Região. Fabrico, reparação e instalação de estruturas metálicas à medida, incluindo portões, grades, corrimões, escadas, vedações, portas metálicas e pequenas estruturas em ferro ou aço.'
@@ -25,7 +25,7 @@ export default function HomePage() {
       description: 'A Serralheria Bernardo\'s disponibiliza serviços profissionais de pintura em Lisboa, tanto para interiores como para exteriores, destinados a habitações, apartamentos, lojas, escritórios e condomínios.'
     },
     {
-      url: 'https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp',
+      url: 'https://i.ibb.co/LDHjFX7D/REMODELA-OAO.webp',
       title: 'Remodelações Gerais',
       subtitle: 'Execução de remodelações parciais ou completas em interiores e exteriores. A Serralheria Bernardo\'s coordena os trabalhos necessários para renovar espaços, melhorar funcionalidade e valorizar o imóvel.',
       description: 'A Serralheria Bernardo\'s presta serviços profissionais de remodelações gerais em Lisboa, ajudando a renovar, modernizar e valorizar espaços residenciais e comerciais.'
@@ -39,14 +39,14 @@ export default function HomePage() {
       title: 'Serralharia',
       description: 'Fabrico, reparação e instalação de estruturas metálicas à medida, incluindo portões, grades, corrimões, escadas, vedações, portas metálicas e pequenas estruturas em ferro ou aço.',
       link: '/serralharia',
-      image: 'https://i.ibb.co/d0wz1hP8/PINTURA-INDUSTRIAL.webp'
+      image: 'https://i.ibb.co/kVrv3Jkf/serralheria.webp'
     },
     {
       icon: 'ri-home-4-line',
       title: 'Remodelações Gerais',
       description: 'Execução de remodelações parciais ou completas em interiores e exteriores. Coordenação dos trabalhos necessários para renovar espaços, melhorar funcionalidade e valorizar o imóvel.',
       link: '/remodelacoes',
-      image: 'https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp'
+      image: 'https://i.ibb.co/LDHjFX7D/REMODELA-OAO.webp'
     },
     {
       icon: 'ri-paint-brush-line',
@@ -67,14 +67,14 @@ export default function HomePage() {
       title: 'Serviços Elétricos',
       description: 'Trabalhos elétricos em remodelações, incluindo instalação, substituição e reparação de tomadas, iluminação, quadros elétricos e cablagens, sempre com foco na segurança.',
       link: '/eletricos',
-      image: 'https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png'
+      image: 'https://i.ibb.co/Ldj4qsfg/6-11zon-2.jpg'
     },
     {
       icon: 'ri-tools-line',
       title: 'Manutenção e Reparações',
       description: 'Pequenas reparações e trabalhos de manutenção em estruturas metálicas, pintura, pladur e eletricidade, ideais para imóveis habitados, lojas e condomínios.',
       link: '/manutencao',
-      image: 'https://i.ibb.co/8nwsKHjK/BARRAMENTO.webp'
+      image: 'https://i.ibb.co/MDjmnWtL/5-11zon-1.jpg'
     }
   ];
 

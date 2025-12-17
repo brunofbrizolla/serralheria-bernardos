@@ -41,7 +41,7 @@ export default function SerralhariaPage() {
         <section className="relative h-[600px] md:h-[700px] overflow-hidden">
           <div className="absolute inset-0">
             <img 
-              src="https://i.ibb.co/bjyDHFqZ/serralheria.jpg"
+              src="https://i.ibb.co/kVrv3Jkf/serralheria.webp"
               alt="Serviços de Serralharia Profissional"
               className="w-full h-full object-cover"
             />

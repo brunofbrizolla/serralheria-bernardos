@@ -40,7 +40,7 @@ export default function RemodelacoesPage() {
         <section className="relative h-[600px] md:h-[700px] overflow-hidden">
           <div className="absolute inset-0">
             <img 
-              src="https://i.ibb.co/Ps0XLvHs/REMODELA-OAO.jpg"
+              src="https://i.ibb.co/LDHjFX7D/REMODELA-OAO.webp"
               alt="Remodelações Gerais Profissionais"
               className="w-full h-full object-cover"
             />
