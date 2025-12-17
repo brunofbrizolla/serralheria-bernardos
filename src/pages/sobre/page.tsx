@@ -40,7 +40,7 @@ export default function SobrePage() {
       name: 'Equipa Especializada',
       position: 'Profissionais Qualificados',
       description: 'Equipa experiente especializada em serralharia, remodelações, pintura, pladur e serviços elétricos.',
-      image: 'https://readdy.ai/api/search-image?query=professional%20construction%20workers%20team%20working%20on%20pladur%20drywall%20installation%20portuguese%20company%20santiago%20do%20cacem%20region%20teamwork%20quality%20service&width=300&height=400&seq=team1&orientation=portrait'
+      image: 'https://readdy.ai/api/search-image?query=professional%20construction%20workers%20team%20working%20on%20pladur%20drywall%20installation%20portuguese%20company%20lisboa%20region%20teamwork%20quality%20service&width=300&height=400&seq=team1&orientation=portrait'
     },
     {
       name: 'Técnicos Certificados',
@@ -62,7 +62,7 @@ export default function SobrePage() {
       <section 
         className="py-20 bg-cover bg-center relative"
         style={{
-          backgroundImage: `linear-gradient(to right, rgba(184, 134, 11, 0.9) 0%, rgba(212, 175, 55, 0.8) 100%), url('https://readdy.ai/api/search-image?query=modern%20portuguese%20construction%20company%20office%20building%20exterior%20professional%20architecture%20santiago%20do%20cacem%20region%20corporate%20environment%20blue%20sky&width=1920&height=800&seq=about-hero&orientation=landscape')`
+          backgroundImage: `linear-gradient(to right, rgba(229, 57, 53, 0.9) 0%, rgba(198, 40, 40, 0.8) 100%), url('https://readdy.ai/api/search-image?query=modern%20portuguese%20construction%20company%20office%20building%20exterior%20professional%20architecture%20lisboa%20region%20corporate%20environment%20blue%20sky&width=1920&height=800&seq=about-hero&orientation=landscape')`
         }}
       >
         <div className="container mx-auto px-4 text-center">
@@ -84,13 +84,13 @@ export default function SobrePage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
               <div className="relative">
                 <img 
-                  src="https://readdy.ai/api/search-image?query=professional%20construction%20workers%20team%20working%20on%20pladur%20drywall%20installation%20portuguese%20company%20santiago%20do%20cacem%20region%20teamwork%20quality%20service&width=600&height=400&seq=company-story&orientation=landscape"
+                  src="https://readdy.ai/api/search-image?query=professional%20construction%20workers%20team%20working%20on%20pladur%20drywall%20installation%20portuguese%20company%20lisboa%20region%20teamwork%20quality%20service&width=600&height=400&seq=company-story&orientation=landscape"
                   alt="História da Serralheria Bernardo's"
                   className="w-full h-80 object-cover rounded-2xl shadow-lg"
                 />
                 <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm p-3 rounded-full shadow-xl border-2 border-bernardos-red">
                   <img 
-                    src="https://i.ibb.co/9HRRKhQf/Imagem-do-Whats-App-de-2025-11-13-s-10-48-58-4162b361.webp" 
+                    src="https://i.ibb.co/35L2vWFV/logo-bernardos.jpg" 
                     alt="Serralheria Bernardo's Logo" 
                     className="h-16 w-16 object-cover rounded-full"
                   />
