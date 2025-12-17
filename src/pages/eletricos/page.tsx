@@ -40,7 +40,7 @@ export default function EletricosPage() {
         <section className="relative h-[600px] md:h-[700px] overflow-hidden">
           <div className="absolute inset-0">
             <img 
-              src="https://i.ibb.co/pvBWprjB/Chat-GPT-Image-13-de-nov-de-2025-15-57-19.png"
+              src="https://i.ibb.co/Xx0mdGT5/6-11zon-2.jpg"
               alt="Serviços Elétricos Profissionais"
               className="w-full h-full object-cover"
             />
