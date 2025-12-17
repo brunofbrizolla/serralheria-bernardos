@@ -100,7 +100,7 @@ export default function ContatoPage() {
   return (
     <div className="min-h-screen pt-32">
       {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white">
+      <section className="py-16 bg-gradient-to-r from-bernardos-red to-bernardos-red-dark text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Entre em Contacto</h1>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
@@ -270,7 +270,7 @@ export default function ContatoPage() {
                           href={info.link} 
                           target={info.link.startsWith('http') ? '_blank' : undefined}
                           rel={info.link.startsWith('http') ? 'noopener noreferrer' : undefined}
-                          className="text-gray-600 hover:text-[#B8860B] transition-colors cursor-pointer"
+                          className="text-gray-600 hover:text-bernardos-red transition-colors cursor-pointer"
                         >
                           {info.value}
                         </a>
