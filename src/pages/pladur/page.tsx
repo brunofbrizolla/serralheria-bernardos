@@ -163,7 +163,7 @@ export default function PladurPage() {
                 <ul className="space-y-3">
                   {['Remodelações rápidas', 'Acabamentos duradouros', 'Isolamento acústico e térmico', 'Design sofisticado'].map((item, i) => (
                     <li key={i} className="flex items-center gap-3">
-                      <i className="ri-check-line text-[#D4AF37] text-2xl"></i>
+                      <i className="ri-check-line text-bernardos-red text-2xl"></i>
                       <span className="text-gray-700 text-lg">{item}</span>
                     </li>
                   ))}
@@ -224,7 +224,7 @@ export default function PladurPage() {
                   'Remodelações rápidas'
                 ].map((benefit, index) => (
                   <div key={index} className="flex items-start gap-3 bg-gray-50 rounded-lg p-4 border border-gray-100">
-                    <i className="ri-check-line text-[#D4AF37] text-2xl mt-1 flex-shrink-0"></i>
+                    <i className="ri-check-line text-bernardos-red text-2xl mt-1 flex-shrink-0"></i>
                     <span className="text-gray-700">{benefit}</span>
                   </div>
                 ))}
@@ -267,7 +267,7 @@ export default function PladurPage() {
                     href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20um%20orçamento%20gratuito%20para%20Pladur" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="px-10 py-5 bg-white text-[#B8860B] rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-3 text-lg shadow-xl"
+                    className="px-10 py-5 bg-white text-bernardos-red rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-3 text-lg shadow-xl"
                   >
                     <i className="ri-whatsapp-line text-2xl"></i>
                     WhatsApp - Orçamento Grátis

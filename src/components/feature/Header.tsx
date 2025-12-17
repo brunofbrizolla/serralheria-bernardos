@@ -15,7 +15,7 @@ export default function Header() {
             <img 
               src="/assets/logo-bernardos.png" 
               alt="Serralheria Bernardo's Logo" 
-              className="h-16 w-auto object-contain"
+              className="h-16 w-16 object-cover rounded-full border-2 border-bernardos-red"
             />
           </Link>
 

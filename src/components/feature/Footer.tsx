@@ -10,7 +10,7 @@ export default function Footer() {
               <img 
                 src="/assets/logo-bernardos.png" 
                 alt="Serralheria Bernardo's Logo" 
-                className="h-20 w-auto object-contain"
+                className="h-20 w-20 object-cover rounded-full border-2 border-bernardos-red"
               />
             </div>
             <p className="text-gray-400 text-sm mb-4">
