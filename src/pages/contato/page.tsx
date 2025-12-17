@@ -34,8 +34,7 @@ export default function ContatoPage() {
 
     try {
       // Web3Forms - solução simples e gratuita
-      // Obtenha sua chave em: https://web3forms.com/
-      const accessKey = import.meta.env.VITE_WEB3FORMS_KEY || 'YOUR_ACCESS_KEY';
+      const accessKey = import.meta.env.VITE_WEB3FORMS_KEY || 'a5053b31-04d6-449d-8203-e1fc2bd8e26f';
       
       const formDataToSend = new FormData();
       formDataToSend.append('access_key', accessKey);
