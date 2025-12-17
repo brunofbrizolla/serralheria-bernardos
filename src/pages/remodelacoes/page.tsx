@@ -100,17 +100,33 @@ export default function RemodelacoesPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                 {[
-                  { icon: 'ri-home-4-line', title: 'Remodelação de Interiores', desc: 'Renovação completa de espaços interiores' },
-                  { icon: 'ri-building-line', title: 'Remodelação de Exteriores', desc: 'Melhoria de fachadas e espaços exteriores' },
-                  { icon: 'ri-tools-line', title: 'Coordenação de Obras', desc: 'Coordenação de diferentes trabalhos e especialidades' },
-                  { icon: 'ri-time-line', title: 'Cumprimento de Prazos', desc: 'Trabalhos organizados e dentro do prazo' }
+                  { 
+                    icon: 'ri-home-4-line', 
+                    title: 'Remodelação de Interiores', 
+                    desc: 'Renovação completa de espaços interiores, incluindo divisórias, pintura, pladur e instalações elétricas. Transformamos interiores com soluções modernas e funcionais, adaptadas às necessidades de cada cliente e espaço.' 
+                  },
+                  { 
+                    icon: 'ri-building-line', 
+                    title: 'Remodelação de Exteriores', 
+                    desc: 'Melhoria de fachadas e espaços exteriores, incluindo pintura, reparação de estruturas metálicas e melhorias estéticas. Trabalhos que valorizam o imóvel e melhoram a sua apresentação exterior.' 
+                  },
+                  { 
+                    icon: 'ri-tools-line', 
+                    title: 'Coordenação de Obras', 
+                    desc: 'Coordenação de diferentes trabalhos e especialidades, desde serralharia e pintura até pladur e eletricidade. A nossa equipa acompanha todo o processo, garantindo organização e qualidade em cada etapa.' 
+                  },
+                  { 
+                    icon: 'ri-time-line', 
+                    title: 'Cumprimento de Prazos', 
+                    desc: 'Trabalhos organizados e dentro do prazo estabelecido. Trabalhamos de forma eficiente, reduzindo ao máximo os incómodos durante a execução e garantindo a conclusão no tempo previsto.' 
+                  }
                 ].map((item, i) => (
                   <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mb-4">
                       <i className={`${item.icon} text-3xl text-white`}></i>
                     </div>
                     <h4 className="text-xl font-bold text-[#0F172A] mb-3">{item.title}</h4>
-                    <p className="text-gray-600">{item.desc}</p>
+                    <p className="text-gray-600 leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
               </div>

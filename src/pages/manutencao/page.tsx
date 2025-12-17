@@ -97,19 +97,43 @@ export default function ManutencaoPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                 {[
-                  { icon: 'ri-tools-line', title: 'Reparação de Estruturas', desc: 'Reparação de portões, grades e estruturas metálicas' },
-                  { icon: 'ri-paint-brush-line', title: 'Reparação de Pintura', desc: 'Correção de problemas em pintura' },
-                  { icon: 'ri-hammer-line', title: 'Reparação de Pladur', desc: 'Reparação de danos em pladur' },
-                  { icon: 'ri-wire-line', title: 'Reparação Elétrica', desc: 'Trabalhos elétricos de pequena dimensão' },
-                  { icon: 'ri-time-line', title: 'Resposta Rápida', desc: 'Serviço rápido e eficiente' },
-                  { icon: 'ri-home-4-line', title: 'Mínimo Incómodo', desc: 'Trabalhos com mínimo incómodo' }
+                  { 
+                    icon: 'ri-tools-line', 
+                    title: 'Reparação de Estruturas', 
+                    desc: 'Reparação de portões, grades e estruturas metálicas em imóveis habitados, lojas e condomínios. Trabalhos realizados com rapidez e qualidade, garantindo a funcionalidade e segurança das estruturas metálicas com mínimo incómodo.' 
+                  },
+                  { 
+                    icon: 'ri-paint-brush-line', 
+                    title: 'Reparação de Pintura', 
+                    desc: 'Correção de problemas em pintura, incluindo retoques, correção de imperfeições e renovação de áreas danificadas. Trabalhos realizados com materiais de qualidade, garantindo um acabamento uniforme e duradouro.' 
+                  },
+                  { 
+                    icon: 'ri-hammer-line', 
+                    title: 'Reparação de Pladur', 
+                    desc: 'Reparação de danos em pladur, incluindo correção de fissuras, substituição de painéis danificados e restauro de acabamentos. Trabalhos realizados com técnicas adequadas para garantir resistência e alinhamento perfeito.' 
+                  },
+                  { 
+                    icon: 'ri-wire-line', 
+                    title: 'Reparação Elétrica', 
+                    desc: 'Trabalhos elétricos de pequena dimensão, incluindo substituição de tomadas, interruptores, reparação de circuitos e correção de problemas elétricos. Serviços realizados com segurança e cumprimento das normas.' 
+                  },
+                  { 
+                    icon: 'ri-time-line', 
+                    title: 'Resposta Rápida', 
+                    desc: 'Serviço rápido e eficiente para trabalhos de manutenção e reparação urgente. Atuamos em toda a região de Lisboa, oferecendo resposta rápida para garantir a funcionalidade do seu espaço no menor tempo possível.' 
+                  },
+                  { 
+                    icon: 'ri-home-4-line', 
+                    title: 'Mínimo Incómodo', 
+                    desc: 'Trabalhos realizados com mínimo incómodo para imóveis habitados, lojas e condomínios. Trabalhamos de forma organizada e eficiente, respeitando o espaço do cliente e minimizando os incómodos durante a execução dos trabalhos.' 
+                  }
                 ].map((item, i) => (
                   <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mb-4">
                       <i className={`${item.icon} text-3xl text-white`}></i>
                     </div>
                     <h4 className="text-xl font-bold text-[#0F172A] mb-3">{item.title}</h4>
-                    <p className="text-gray-600">{item.desc}</p>
+                    <p className="text-gray-600 leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
               </div>

@@ -100,17 +100,33 @@ export default function PinturaPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                 {[
-                  { icon: 'ri-home-4-line', title: 'Pintura Interior', desc: 'Pintura de paredes, tetos e interiores' },
-                  { icon: 'ri-building-line', title: 'Pintura Exterior', desc: 'Pintura de fachadas e exteriores' },
-                  { icon: 'ri-paint-brush-line', title: 'Preparação de Superfícies', desc: 'Limpeza, correção e lixagem profissional' },
-                  { icon: 'ri-shield-check-line', title: 'Acabamentos de Qualidade', desc: 'Resultado uniforme e duradouro' }
+                  { 
+                    icon: 'ri-home-4-line', 
+                    title: 'Pintura Interior', 
+                    desc: 'Pintura de paredes, tetos e interiores para habitações, apartamentos, lojas e escritórios. Utilizamos materiais de qualidade e técnicas adequadas para garantir um acabamento uniforme, limpo e duradouro que melhora a estética e protege as superfícies.' 
+                  },
+                  { 
+                    icon: 'ri-building-line', 
+                    title: 'Pintura Exterior', 
+                    desc: 'Pintura de fachadas e exteriores com produtos resistentes às intempéries. Proteção e valorização do imóvel com acabamentos profissionais que resistem ao tempo e mantêm a aparência cuidada do exterior.' 
+                  },
+                  { 
+                    icon: 'ri-paint-brush-line', 
+                    title: 'Preparação de Superfícies', 
+                    desc: 'Limpeza, correção de imperfeições, lixagem e aplicação de primários quando necessário. Uma preparação adequada é essencial para garantir um acabamento uniforme e duradouro, assegurando a qualidade final do trabalho.' 
+                  },
+                  { 
+                    icon: 'ri-shield-check-line', 
+                    title: 'Acabamentos de Qualidade', 
+                    desc: 'Resultado uniforme e duradouro com materiais de qualidade e técnicas profissionais. Respeitamos o espaço do cliente, mantendo o local organizado durante todo o processo e garantindo um serviço limpo e rigoroso.' 
+                  }
                 ].map((item, i) => (
                   <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mb-4">
                       <i className={`${item.icon} text-3xl text-white`}></i>
                     </div>
                     <h4 className="text-xl font-bold text-[#0F172A] mb-3">{item.title}</h4>
-                    <p className="text-gray-600">{item.desc}</p>
+                    <p className="text-gray-600 leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
               </div>

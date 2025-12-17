@@ -97,19 +97,43 @@ export default function EletricosPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                 {[
-                  { icon: 'ri-lightbulb-line', title: 'Instalação de Iluminação', desc: 'Iluminação interior e exterior profissional' },
-                  { icon: 'ri-plug-line', title: 'Tomadas e Interruptores', desc: 'Instalação e substituição de tomadas' },
-                  { icon: 'ri-dashboard-line', title: 'Quadros Elétricos', desc: 'Instalação e manutenção de quadros' },
-                  { icon: 'ri-wire-line', title: 'Fiação Elétrica', desc: 'Instalação e reparação de fiação' },
-                  { icon: 'ri-shield-line', title: 'Sistemas de Segurança', desc: 'Instalação de sistemas de segurança' },
-                  { icon: 'ri-home-smart-home-line', title: 'Automação Residencial', desc: 'Soluções de automação para casa' }
+                  { 
+                    icon: 'ri-lightbulb-line', 
+                    title: 'Instalação de Iluminação', 
+                    desc: 'Iluminação interior e exterior profissional para habitações, escritórios e espaços comerciais. Instalação de sistemas de iluminação modernos, eficientes e adequados a cada ambiente, garantindo conforto visual e economia energética.' 
+                  },
+                  { 
+                    icon: 'ri-plug-line', 
+                    title: 'Tomadas e Interruptores', 
+                    desc: 'Instalação e substituição de tomadas e interruptores em toda a região de Lisboa. Trabalhos realizados com segurança, cumprindo todas as normas e regulamentações, garantindo funcionalidade e segurança elétrica.' 
+                  },
+                  { 
+                    icon: 'ri-dashboard-line', 
+                    title: 'Quadros Elétricos', 
+                    desc: 'Instalação e manutenção de quadros elétricos residenciais, comerciais e industriais. Serviços especializados para garantir a distribuição segura e eficiente da energia elétrica, com equipamentos de qualidade e certificados.' 
+                  },
+                  { 
+                    icon: 'ri-wire-line', 
+                    title: 'Fiação Elétrica', 
+                    desc: 'Instalação e reparação de fiação elétrica em remodelações e obras novas. Utilizamos materiais de qualidade e técnicas adequadas para garantir segurança, durabilidade e conformidade com as normas em vigor.' 
+                  },
+                  { 
+                    icon: 'ri-shield-line', 
+                    title: 'Sistemas de Segurança', 
+                    desc: 'Instalação de sistemas de segurança elétrica, incluindo alarmes, videovigilância e sistemas de detecção. Soluções personalizadas para proteger o seu espaço com tecnologia moderna e fiável.' 
+                  },
+                  { 
+                    icon: 'ri-home-smart-home-line', 
+                    title: 'Automação Residencial', 
+                    desc: 'Soluções de automação residencial para controlo de iluminação, climatização e outros sistemas elétricos. Tecnologia inteligente que aumenta o conforto e a eficiência energética do seu espaço.' 
+                  }
                 ].map((item, i) => (
                   <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mb-4">
                       <i className={`${item.icon} text-3xl text-white`}></i>
                     </div>
                     <h4 className="text-xl font-bold text-[#0F172A] mb-3">{item.title}</h4>
-                    <p className="text-gray-600">{item.desc}</p>
+                    <p className="text-gray-600 leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
               </div>

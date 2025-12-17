@@ -102,19 +102,43 @@ export default function SerralhariaPage() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
                 {[
-                  { icon: 'ri-gate-line', title: 'Portões Metálicos', desc: 'Fabrico e instalação de portões metálicos à medida' },
-                  { icon: 'ri-shield-line', title: 'Grades de Segurança', desc: 'Grades de segurança robustas e duradouras' },
-                  { icon: 'ri-handrail-line', title: 'Corrimões', desc: 'Corrimões em metal para escadas e varandas' },
-                  { icon: 'ri-stairs-line', title: 'Escadas Metálicas', desc: 'Escadas metálicas personalizadas' },
-                  { icon: 'ri-fence-line', title: 'Vedações', desc: 'Vedações metálicas para propriedades' },
-                  { icon: 'ri-door-line', title: 'Portas Metálicas', desc: 'Portas metálicas de segurança' }
+                  { 
+                    icon: 'ri-gate-line', 
+                    title: 'Portões Metálicos', 
+                    desc: 'Fabrico e instalação de portões metálicos à medida para habitações, condomínios e empresas. Estruturas robustas, funcionais e com acabamentos de qualidade, adaptadas às necessidades de cada cliente e garantindo segurança e durabilidade.' 
+                  },
+                  { 
+                    icon: 'ri-shield-line', 
+                    title: 'Grades de Segurança', 
+                    desc: 'Grades de segurança robustas e duradouras para janelas, varandas e aberturas. Trabalhamos com materiais de alta resistência e durabilidade, assegurando que todos os projetos atendem às exigências de segurança e estética.' 
+                  },
+                  { 
+                    icon: 'ri-handrail-line', 
+                    title: 'Corrimões', 
+                    desc: 'Corrimões em metal para escadas e varandas, personalizados e adaptados a cada espaço. Estruturas resistentes e funcionais, com acabamentos de qualidade que garantem segurança e estética em interiores e exteriores.' 
+                  },
+                  { 
+                    icon: 'ri-stairs-line', 
+                    title: 'Escadas Metálicas', 
+                    desc: 'Escadas metálicas personalizadas para interiores e exteriores. Fabricamos estruturas à medida, adaptadas às necessidades de cada projeto, garantindo funcionalidade, segurança e acabamentos profissionais.' 
+                  },
+                  { 
+                    icon: 'ri-fence-line', 
+                    title: 'Vedações', 
+                    desc: 'Vedações metálicas para propriedades, condomínios e espaços comerciais. Estruturas robustas e duradouras que garantem segurança e privacidade, com design adaptado a cada necessidade e espaço.' 
+                  },
+                  { 
+                    icon: 'ri-door-line', 
+                    title: 'Portas Metálicas', 
+                    desc: 'Portas metálicas de segurança para habitações, escritórios e espaços comerciais. Fabricamos e instalamos portas robustas e funcionais, garantindo segurança e durabilidade com acabamentos de qualidade.' 
+                  }
                 ].map((item, i) => (
                   <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-br from-bernardos-red to-bernardos-red-dark rounded-full mb-4">
                       <i className={`${item.icon} text-3xl text-white`}></i>
                     </div>
                     <h4 className="text-xl font-bold text-[#0F172A] mb-3">{item.title}</h4>
-                    <p className="text-gray-600">{item.desc}</p>
+                    <p className="text-gray-600 leading-relaxed">{item.desc}</p>
                   </div>
                 ))}
               </div>
