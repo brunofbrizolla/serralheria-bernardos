@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function ContatoPage() {
   const [formData, setFormData] = useState({
@@ -33,20 +34,25 @@ export default function ContatoPage() {
     }
 
     try {
-      const formDataToSend = new FormData();
-      Object.entries(formData).forEach(([key, value]) => {
-        formDataToSend.append(key, value);
-      });
+      // Configuração do EmailJS
+      const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+      const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+      const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
-      const response = await fetch('https://readdy.ai/api/form/d3tbrih1o2e7sldi7sbg', {
-        method: 'POST',
-        body: new URLSearchParams(formDataToSend as any),
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-      });
-
-      if (response.ok) {
+      // Verificar se as variáveis estão configuradas
+      if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+        console.error('EmailJS não configurado. Verifique as variáveis de ambiente.');
+        // Fallback: usar mailto como alternativa temporária
+        const mailtoSubject = encodeURIComponent('Pedido de Orçamento - Serralheria Bernardo\'s');
+        const mailtoBody = encodeURIComponent(
+          `Nome: ${formData.nome}\n` +
+          `Email: ${formData.email}\n` +
+          `Telefone: ${formData.telefone}\n` +
+          `Localização: ${formData.localizacao || 'Não especificado'}\n` +
+          `Tipo de Serviço: ${formData.tipoServico || 'Não especificado'}\n\n` +
+          `Mensagem:\n${formData.mensagem}`
+        );
+        window.location.href = `mailto:geral@serralheriabernardos.pt?subject=${mailtoSubject}&body=${mailtoBody}`;
         setSubmitStatus('success');
         setFormData({
           nome: '',
@@ -56,10 +62,42 @@ export default function ContatoPage() {
           tipoServico: '',
           mensagem: ''
         });
-      } else {
-        setSubmitStatus('error');
+        setIsSubmitting(false);
+        return;
       }
+
+      // Inicializar EmailJS
+      emailjs.init(EMAILJS_PUBLIC_KEY);
+
+      // Preparar dados do template
+      const templateParams = {
+        from_name: formData.nome,
+        from_email: formData.email,
+        phone: formData.telefone,
+        location: formData.localizacao || 'Não especificado',
+        service_type: formData.tipoServico || 'Não especificado',
+        message: formData.mensagem,
+        to_email: 'geral@serralheriabernardos.pt',
+      };
+
+      // Enviar email
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams
+      );
+
+      setSubmitStatus('success');
+      setFormData({
+        nome: '',
+        email: '',
+        telefone: '',
+        localizacao: '',
+        tipoServico: '',
+        mensagem: ''
+      });
     } catch (error) {
+      console.error('Erro ao enviar email:', error);
       setSubmitStatus('error');
     }
 
