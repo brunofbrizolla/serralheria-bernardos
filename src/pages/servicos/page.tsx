@@ -218,7 +218,7 @@ export default function ServicosPage() {
               href="https://wa.me/351968747769?text=Olá,%20preciso%20de%20um%20orçamento%20personalizado" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-[#D4AF37] text-white rounded-lg font-semibold hover:bg-bernardos-red-dark transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
+              className="px-8 py-4 bg-bernardos-red text-white rounded-lg font-semibold hover:bg-bernardos-red-dark transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2"
             >
               <i className="ri-whatsapp-line text-xl"></i>
               Contactar WhatsApp
