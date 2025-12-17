@@ -82,19 +82,12 @@ export default function SobrePage() {
             </div>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-              <div className="relative">
+              <div className="flex items-center justify-center">
                 <img 
-                  src="https://readdy.ai/api/search-image?query=professional%20construction%20workers%20team%20working%20on%20pladur%20drywall%20installation%20portuguese%20company%20lisboa%20region%20teamwork%20quality%20service&width=600&height=400&seq=company-story&orientation=landscape"
-                  alt="História da Serralheria Bernardo's"
-                  className="w-full h-80 object-cover rounded-2xl shadow-lg"
+                  src="https://i.ibb.co/35L2vWFV/logo-bernardos.jpg" 
+                  alt="Serralheria Bernardo's Logo" 
+                  className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-bernardos-red shadow-2xl"
                 />
-                <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm p-3 rounded-full shadow-xl border-2 border-bernardos-red">
-                  <img 
-                    src="https://i.ibb.co/35L2vWFV/logo-bernardos.jpg" 
-                    alt="Serralheria Bernardo's Logo" 
-                    className="h-16 w-16 object-cover rounded-full"
-                  />
-                </div>
               </div>
               <div>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
