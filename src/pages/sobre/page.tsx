@@ -35,26 +35,6 @@ export default function SobrePage() {
     }
   ];
 
-  const team = [
-    {
-      name: 'Equipa Especializada',
-      position: 'Profissionais Qualificados',
-      description: 'Equipa experiente especializada em serralharia, remodelações, pintura, pladur e serviços elétricos.',
-      image: 'https://readdy.ai/api/search-image?query=professional%20construction%20workers%20team%20working%20on%20pladur%20drywall%20installation%20portuguese%20company%20lisboa%20region%20teamwork%20quality%20service&width=300&height=400&seq=team1&orientation=portrait'
-    },
-    {
-      name: 'Técnicos Certificados',
-      position: 'Especialistas em Pladur',
-      description: 'Profissionais qualificados em instalação de Pladur, divisórias, tetos falsos e isolamento acústico.',
-      image: 'https://readdy.ai/api/search-image?query=professional%20construction%20worker%20installing%20drywall%20pladur%20portuguese%20technician%20work%20uniform%20construction%20site%20quality%20workmanship&width=300&height=400&seq=team2&orientation=portrait'
-    },
-    {
-      name: 'Pintores Especializados',
-      position: 'Pintura',
-      description: 'Especialistas em pintura industrial, anti-corrosão e pinturas residenciais e comerciais.',
-      image: 'https://readdy.ai/api/search-image?query=professional%20painter%20industrial%20painting%20portuguese%20technician%20work%20clothes%20construction%20site%20quality%20service&width=300&height=400&seq=team3&orientation=portrait'
-    }
-  ];
 
   return (
     <div className="min-h-screen pt-32">
@@ -157,35 +137,6 @@ export default function SobrePage() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#0F172A] mb-6">A Nossa Equipa</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Profissionais qualificados e dedicados ao seu conforto
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {team.map((member, index) => (
-              <div key={index} className="bg-white rounded-2xl overflow-hidden shadow-lg">
-                <img 
-                  src={member.image} 
-                  alt={member.name}
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold text-[#0F172A] mb-2">{member.name}</h3>
-                  <p className="text-bernardos-red font-semibold mb-3">{member.position}</p>
-                  <p className="text-gray-600 text-sm leading-relaxed">{member.description}</p>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
