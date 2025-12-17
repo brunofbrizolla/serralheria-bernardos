@@ -123,7 +123,7 @@ export default function ServicosPage() {
   return (
     <div className="min-h-screen pt-32">
       {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white">
+      <section className="py-16 bg-gradient-to-r from-bernardos-red to-bernardos-red-dark text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Os Nossos Serviços</h1>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
@@ -150,7 +150,7 @@ export default function ServicosPage() {
                   <p className="text-lg text-gray-600 mb-8 leading-relaxed">{service.description}</p>
                   
                   <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#B8860B] mb-4">Benefícios do Serviço:</h3>
+                    <h3 className="text-xl font-semibold text-bernardos-red mb-4">Benefícios do Serviço:</h3>
                     <ul className="space-y-2">
                       {service.benefits.map((benefit, i) => (
                         <li key={i} className="flex items-center gap-3">
@@ -162,7 +162,7 @@ export default function ServicosPage() {
                   </div>
 
                   <div className="mb-8">
-                    <h3 className="text-xl font-semibold text-[#B8860B] mb-4">Características:</h3>
+                    <h3 className="text-xl font-semibold text-bernardos-red mb-4">Características:</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                       {service.features.map((feature, i) => (
                         <div key={i} className="flex items-center gap-2">
@@ -184,7 +184,7 @@ export default function ServicosPage() {
                         service.id === 6 ? '/manutencao' :
                         '/servicos'
                       }
-                      className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white rounded-lg font-semibold hover:shadow-lg transition-all cursor-pointer whitespace-nowrap"
+                      className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-bernardos-red to-bernardos-red-dark text-white rounded-lg font-semibold hover:shadow-lg transition-all cursor-pointer whitespace-nowrap"
                     >
                       <i className="ri-information-line text-xl"></i>
                       Saber Mais
@@ -193,7 +193,7 @@ export default function ServicosPage() {
                       href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20uma%20avaliação%20técnica" 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-8 py-4 bg-white border-2 border-[#B8860B] text-[#B8860B] rounded-lg font-semibold hover:bg-[#B8860B] hover:text-white transition-all cursor-pointer whitespace-nowrap"
+                      className="inline-flex items-center gap-2 px-8 py-4 bg-white border-2 border-[#B8860B] text-bernardos-red rounded-lg font-semibold hover:bg-[#B8860B] hover:text-white transition-all cursor-pointer whitespace-nowrap"
                     >
                       <i className="ri-whatsapp-line text-xl"></i>
                       Pedir Orçamento

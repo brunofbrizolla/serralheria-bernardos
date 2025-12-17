@@ -54,7 +54,7 @@ vercel
 
 Siga as instruções no terminal. Na primeira vez, escolha:
 - Link to existing project? **No**
-- What's your project's name? **greenelite** (ou o nome desejado)
+- What's your project's name? **serralheria-bernardos** (ou o nome desejado)
 - In which directory is your code located? **./**
 - Override settings? **No**
 
@@ -96,7 +96,7 @@ O projeto já está configurado com `vercel.json` que inclui:
 ## 📁 Estrutura do Projeto
 
 ```
-greenelite/
+serralheria-bernardos/
 ├── src/
 │   ├── components/     # Componentes reutilizáveis
 │   ├── pages/          # Páginas do site
@@ -115,17 +115,19 @@ greenelite/
 - `/servicos` - Serviços oferecidos
 - `/sobre` - Sobre a empresa
 - `/contato` - Formulário de contato
-- `/pladur` - Serviços de Pladur
-- `/barramento` - Serviços de Barramento
-- `/pintura-industrial` - Pintura Industrial
-- `/pinturas-geral` - Pinturas Geral
+- `/serralharia` - Serviços de Serralharia
+- `/remodelacoes` - Remodelações Gerais
+- `/pintura` - Serviços de Pintura
+- `/pladur` - Pladur (Gesso Cartonado)
+- `/eletricos` - Serviços Elétricos
+- `/manutencao` - Manutenção e Reparações
 
 ## 📞 Contato
 
-- **Telefone**: +351 934 459 441
-- **Email**: greenelite.flavio@outlook.pt
-- **Localização**: Vale Verde, 7540-230 Santiago do Cacém, Portugal
+- **Telefone**: 968 747 769
+- **Email**: geral@serralheriabernardos.pt
+- **Localização**: Lisboa e Região, Portugal
 
 ## 📝 Licença
 
-© 2025 Greenelite Unipessoal Lda. Todos os direitos reservados.
+© 2025 Serralheria Bernardo's. Todos os direitos reservados.

@@ -160,7 +160,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/servicos"
-                  className="bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white px-8 py-4 rounded-lg font-semibold hover:from-[#8B6914] hover:to-[#B8860B] transition-all duration-300 transform hover:scale-105 shadow-lg text-center whitespace-nowrap"
+                  className="bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white px-8 py-4 rounded-lg font-semibold hover:from-bernardos-red-dark hover:to-bernardos-red transition-all duration-300 transform hover:scale-105 shadow-lg text-center whitespace-nowrap"
                 >
                   Ver Serviços
                 </Link>
@@ -230,21 +230,21 @@ export default function HomePage() {
                     alt={service.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#B8860B]/60 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-bernardos-red/60 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="w-12 h-12 flex items-center justify-center bg-white/90 backdrop-blur-sm rounded-full mb-2 group-hover:scale-110 transition-transform">
-                      <i className={`${service.icon} text-2xl text-[#B8860B]`}></i>
+                      <i className={`${service.icon} text-2xl text-bernardos-red`}></i>
                     </div>
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-2xl font-bold text-[#0F172A] mb-3 group-hover:text-[#B8860B] transition-colors">
+                  <h3 className="text-2xl font-bold text-[#0F172A] mb-3 group-hover:text-bernardos-red transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4 text-sm">
                     {service.description}
                   </p>
-                  <div className="flex items-center text-[#B8860B] font-semibold group-hover:gap-3 transition-all">
+                  <div className="flex items-center text-bernardos-red font-semibold group-hover:gap-3 transition-all">
                     <span>Saber mais</span>
                     <i className="ri-arrow-right-line ml-2 group-hover:translate-x-1 transition-transform"></i>
                   </div>
@@ -256,7 +256,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Section */}
-      <section className="py-20 bg-[#B8860B] text-white">
+      <section className="py-20 bg-bernardos-red text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Por que escolher a Serralheria Bernardo's?</h2>
@@ -329,7 +329,7 @@ export default function HomePage() {
             href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20falar%20com%20um%20especialista" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-10 py-5 bg-white text-[#B8860B] rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap text-lg shadow-xl"
+            className="inline-flex items-center gap-3 px-10 py-5 bg-white text-bernardos-red rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap text-lg shadow-xl"
           >
             <i className="ri-whatsapp-line text-3xl"></i>
             Contactar via WhatsApp
