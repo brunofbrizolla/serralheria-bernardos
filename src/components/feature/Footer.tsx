@@ -33,7 +33,6 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
               <li><Link to="/" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Home</Link></li>
-              <li><Link to="/servicos" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Serviços</Link></li>
               <li><Link to="/sobre" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Sobre nós</Link></li>
               <li><Link to="/contato" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Contato</Link></li>
             </ul>
@@ -42,11 +41,12 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Serviços</h3>
             <ul className="space-y-2">
-              <li><Link to="/pladur" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Pladur</Link></li>
+              <li><Link to="/serralharia" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Serralharia</Link></li>
+              <li><Link to="/remodelacoes" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Remodelações</Link></li>
               <li><Link to="/pintura" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Pintura</Link></li>
-              <li><Link to="/servicos" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Teto Falso</Link></li>
-              <li><Link to="/servicos" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Chão Flutuante</Link></li>
-              <li><Link to="/servicos" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Remodelação Geral</Link></li>
+              <li><Link to="/pladur" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Pladur</Link></li>
+              <li><Link to="/eletricos" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Elétricos</Link></li>
+              <li><Link to="/manutencao" className="text-gray-400 hover:text-bernardos-red transition-colors text-sm cursor-pointer">Manutenção</Link></li>
             </ul>
           </div>
 

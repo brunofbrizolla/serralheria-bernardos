@@ -39,7 +39,7 @@ export default function Header() {
             <Link 
               to="/remodelacoes" 
               className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/remodelacoes') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+                isActive('/remodelacoes') ? 'text-bernardos-red' : 'text-gray-700 hover:text-bernardos-red'
               }`}
             >
               Remodelações
@@ -47,7 +47,7 @@ export default function Header() {
             <Link 
               to="/pintura" 
               className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/pintura') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+                isActive('/pintura') ? 'text-bernardos-red' : 'text-gray-700 hover:text-bernardos-red'
               }`}
             >
               Pintura
@@ -55,7 +55,7 @@ export default function Header() {
             <Link 
               to="/pladur" 
               className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/pladur') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+                isActive('/pladur') ? 'text-bernardos-red' : 'text-gray-700 hover:text-bernardos-red'
               }`}
             >
               Pladur
@@ -63,23 +63,15 @@ export default function Header() {
             <Link 
               to="/eletricos" 
               className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/eletricos') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+                isActive('/eletricos') ? 'text-bernardos-red' : 'text-gray-700 hover:text-bernardos-red'
               }`}
             >
               Elétricos
             </Link>
             <Link 
-              to="/servicos" 
-              className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/servicos') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
-              }`}
-            >
-              Serviços
-            </Link>
-            <Link 
               to="/sobre" 
               className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/sobre') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+                isActive('/sobre') ? 'text-bernardos-red' : 'text-gray-700 hover:text-bernardos-red'
               }`}
             >
               Sobre nós
@@ -87,7 +79,7 @@ export default function Header() {
             <Link 
               to="/contato" 
               className={`text-sm font-medium transition-colors cursor-pointer whitespace-nowrap ${
-                isActive('/contato') ? 'text-[#B8860B]' : 'text-gray-700 hover:text-[#B8860B]'
+                isActive('/contato') ? 'text-bernardos-red' : 'text-gray-700 hover:text-bernardos-red'
               }`}
             >
               Contato
@@ -125,7 +117,6 @@ export default function Header() {
             <Link to="/pladur" className="py-2 text-gray-700 hover:text-bernardos-red cursor-pointer" onClick={() => setIsMenuOpen(false)}>Pladur</Link>
             <Link to="/eletricos" className="py-2 text-gray-700 hover:text-bernardos-red cursor-pointer" onClick={() => setIsMenuOpen(false)}>Elétricos</Link>
             <Link to="/manutencao" className="py-2 text-gray-700 hover:text-bernardos-red cursor-pointer" onClick={() => setIsMenuOpen(false)}>Manutenção</Link>
-            <Link to="/servicos" className="py-2 text-gray-700 hover:text-bernardos-red cursor-pointer" onClick={() => setIsMenuOpen(false)}>Serviços</Link>
             <Link to="/sobre" className="py-2 text-gray-700 hover:text-bernardos-red cursor-pointer" onClick={() => setIsMenuOpen(false)}>Sobre nós</Link>
             <Link to="/contato" className="py-2 text-gray-700 hover:text-bernardos-red cursor-pointer" onClick={() => setIsMenuOpen(false)}>Contato</Link>
             <a 

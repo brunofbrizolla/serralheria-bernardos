@@ -19,10 +19,6 @@ const routes: RouteObject[] = [
     element: <HomePage />,
   },
   {
-    path: '/servicos',
-    element: <ServicosPage />,
-  },
-  {
     path: '/sobre',
     element: <SobrePage />,
   },

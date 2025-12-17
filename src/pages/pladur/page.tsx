@@ -64,7 +64,7 @@ export default function PladurPage() {
                     href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20Pladur" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-[#B8860B] rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2 text-base sm:text-lg shadow-xl"
+                    className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-bernardos-red rounded-lg font-bold hover:bg-gray-50 transition-all cursor-pointer whitespace-nowrap flex items-center justify-center gap-2 text-base sm:text-lg shadow-xl"
                   >
                     <i className="ri-whatsapp-line text-xl sm:text-2xl"></i>
                     <span className="hidden sm:inline">Solicitar Orçamento Grátis</span>

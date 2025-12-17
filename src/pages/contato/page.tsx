@@ -79,7 +79,7 @@ export default function ContatoPage() {
       title: 'Telefone',
       value: '968 747 769',
       link: 'tel:+351968747769',
-      color: 'text-[#B8860B]'
+      color: 'text-bernardos-red'
     },
     {
       icon: 'ri-mail-line',
@@ -130,7 +130,7 @@ export default function ContatoPage() {
                       required
                       value={formData.nome}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#B8860B] focus:border-transparent text-sm"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-bernardos-red focus:border-transparent text-sm"
                       placeholder="O seu nome"
                     />
                   </div>
@@ -145,7 +145,7 @@ export default function ContatoPage() {
                       required
                       value={formData.email}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#B8860B] focus:border-transparent text-sm"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-bernardos-red focus:border-transparent text-sm"
                       placeholder="o.seu.email@exemplo.com"
                     />
                   </div>
@@ -163,7 +163,7 @@ export default function ContatoPage() {
                       required
                       value={formData.telefone}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#B8860B] focus:border-transparent text-sm"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-bernardos-red focus:border-transparent text-sm"
                       placeholder="+351 912 345 678"
                     />
                   </div>
@@ -177,7 +177,7 @@ export default function ContatoPage() {
                       name="localizacao"
                       value={formData.localizacao}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#B8860B] focus:border-transparent text-sm"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-bernardos-red focus:border-transparent text-sm"
                       placeholder="Cidade, Lisboa"
                     />
                   </div>
@@ -192,7 +192,7 @@ export default function ContatoPage() {
                     name="tipoServico"
                     value={formData.tipoServico}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#B8860B] focus:border-transparent text-sm pr-8"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-bernardos-red focus:border-transparent text-sm pr-8"
                   >
                     <option value="">Selecione um serviço</option>
                     <option value="pladur">Pladur</option>
@@ -228,7 +228,7 @@ export default function ContatoPage() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-4 bg-gradient-to-r from-[#B8860B] to-[#D4AF37] text-white rounded-lg font-semibold hover:shadow-lg transition-all cursor-pointer whitespace-nowrap disabled:opacity-50"
+                  className="w-full py-4 bg-gradient-to-r from-bernardos-red to-bernardos-red-dark text-white rounded-lg font-semibold hover:shadow-lg transition-all cursor-pointer whitespace-nowrap disabled:opacity-50"
                 >
                   {isSubmitting ? 'A enviar...' : 'Enviar Pedido de Orçamento'}
                 </button>
@@ -282,10 +282,10 @@ export default function ContatoPage() {
                 ))}
               </div>
 
-              <div className="bg-[#B8860B]/5 border border-[#B8860B]/20 rounded-lg p-6 mb-8">
-                <h3 className="font-semibold text-[#B8860B] mb-2">Área de Atendimento</h3>
+              <div className="bg-bernardos-red/5 border border-bernardos-red/20 rounded-lg p-6 mb-8">
+                <h3 className="font-semibold text-bernardos-red mb-2">Área de Atendimento</h3>
                 <p className="text-gray-700">
-                  <i className="ri-map-pin-line text-[#D4AF37] mr-2"></i>
+                  <i className="ri-map-pin-line text-bernardos-red mr-2"></i>
                   Lisboa e Região
                 </p>
                 <p className="text-sm text-gray-600 mt-2">
@@ -322,7 +322,7 @@ export default function ContatoPage() {
             href="https://wa.me/351968747769?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 px-10 py-5 bg-[#D4AF37] text-white rounded-lg font-bold hover:bg-[#B8860B] transition-all cursor-pointer whitespace-nowrap text-lg shadow-xl"
+            className="inline-flex items-center gap-3 px-10 py-5 bg-bernardos-red text-white rounded-lg font-bold hover:bg-bernardos-red-dark transition-all cursor-pointer whitespace-nowrap text-lg shadow-xl"
           >
             <i className="ri-whatsapp-line text-3xl"></i>
             Contactar via WhatsApp
